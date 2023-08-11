@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:get_it/get_it.dart';
 
-import 'homepage.dart';
+import 'screens/homepage/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +16,32 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      builder: (context, widget) {
+        if (!GetIt.instance.isRegistered<AppLocalizations>()) {
+          GetIt.instance.registerSingleton<AppLocalizations>(
+              AppLocalizations.of(context)!);
+        }
+
+        return FutureBuilder(
+            future: GetIt.instance.allReady(),
+            builder: (BuildContext context, AsyncSnapshot snapshot) {
+              if (snapshot.hasData) {
+                return widget!;
+              } else {
+                return Container(color: Colors.white);
+              }
+            });
+      },
       title: 'Cocoon Kids',
+      localizationsDelegates: const [
+        AppLocalizations.delegate, // Add this line
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: const [
+        Locale('en'), // English
+      ],
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -33,7 +61,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Homepage(title: 'Landing Page'),
+      home: const Homepage(title: 'Welcome'),
     );
   }
 }
