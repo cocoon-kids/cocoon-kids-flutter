@@ -1,0 +1,1000 @@
+{
+    "emotions": [
+
+        {
+            "id": 1,
+            "name": "lonely",
+            "restricted": false,
+            "under13": {
+                "title": "Feeling sad or lonely",
+                "src": "lonely.jpg",
+                "description": "Feeling sad or lonely is an important emotion because it tells you that something is upsetting you. You can feel lonely for many different reasons.",
+                "symptoms": [
+                    "You might feel shocked or surprised",
+                    "You might have a sore tummy, or not be able to eat like you usually do.",
+                    "It can feel like you are going to cry more often than usual",
+                    "Your chest might feel tight and painful.",
+                    "You might feel angry or confused.",
+                    "You might feel left behind, forgotten or unimportant(even though you are important)",
+                    "You might feel all of these feelings at different times - and have other different feelings, too.",
+                    "It's important to let a trusted adult know if you’re feeling lonely, sad or alone regularly.",
+                    "Regularly means more than 3 times a week, or you've felt like this a few times a week for longer than 2 weeks."
+                ]
+            },
+            "over13": {
+                "title": "Feeling sad or lonely.",
+                "src": "lonely.jpg",
+                "description": "It can feel really painful to feel sad or lonely.",
+                "symptoms": [
+                    "It can feel like you want or need to cry more often than usual",
+                    "Your chest might feel tight and painful.",
+                    "You might have a sore stomach(tummy), or not be able to eat like you usually do.",
+                    "You might feel angry.",
+                    "You might feel surprised or shocked or have no feeling at all",
+                    "You might feel left behind, forgotten or unimportant(even though you are important)",
+                    "You might feel confused.",
+                    "Sometimes it can feel like a wave of emotions are in you all at one time.",
+                    "You might feel like there’s not much point to doing anything, or like things feel hopeless at the moment.",
+                    "You might feel all of these feelings at different times. You might feel other different feelings, too.",
+                    "These are all very normal feelings.",
+                    "Sometimes you can feel lonely when an important friendship or relationship has changed, or someone has died.",
+                    "These feelings are important and show you that this person's an important person for you in your life.",
+                    "This is why it feels sad and painful at the moment.  It’s normal to feel one way one time and then differently another time, too.",
+                    "Remember that it's important to let a trusted adult know if you regularly feel lonely, sad or alone.",
+                    "Regularly means more than 3 times a week, or you've felt like this a few times a week for longer than 2 weeks."
+                ]
+            }
+        },
+         
+        {
+            "id": 2,
+            "name": "angry",
+            "restricted": false,
+            "under13": {
+                "title": "Anger and angry feelings",
+                "src": "angry.jpg",
+                "description": "Anger and feeling angry is one of the most important emotions you have. Angry feelings are your brain, mind and body's way of telling and showing you that something's not feeling right for you. It can mean that something needs to change right now.",
+                "symptoms": [
+                    "Sometimes people are scared of anger. But, it's OK to share that you're angry. You might also want or need to do something with it.",
+                    "How do you know that you’re angry?:",
+                    "Is your body feeling angry? Are you feeling hot? Are your hands or jaw and teeth feeling tight? Do your shoulders feel stiff?",
+                    "Do you need to do something now?"
+                ]
+            },
+            "over13": {
+                "title": "Anger and angry feelings",
+                "src": "angry.jpg",
+                "description": "Anger - feeling angry, about to flip your lid, fuming, livid...?",
+                "symptoms": [
+                    "Anger and feeling angry is one of the most important emotion you have. It tells you a lot about what's happening for you in your world - and how you are feeling about this.",
+                    "Angry feelings are your brain, mind and body's way of telling and showing you that something's not feeling right for you. Sometimes being angry is called 'flipping your lid'.  It's important to notice and understand how your body is feeling just before you become angry, so you can find healthy ways to use it.",
+                    "It also can mean that something needs to change right now. Do you need to do something now.",
+                    "Healthy ways to deal with anger,  when you need to use up and get anger out of your body, brain and mind and share how you're feeling."
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "anxious",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "anxious.jpg",
+                "description": "Anxiety is feeling that everybody gets. How do you know if you're feeling anxious? You might...",
+                "symptoms": [
+                    "cry more",
+                    "have a store tummy or feel sick",
+                    "feel dizzy or shaky",
+                    "bite or pick at your nails, skin or hair",
+                    "find it hard to go to or stay asleep",
+                    "wet your bed or clothes",
+                    "have bad dreams",
+                    " think about the same thing again and again",
+                    "have pins and needles",
+                    "not be able to sit still easily",
+                    "get headaches, backache or other aches and pains",
+                    "have fast breathing and feel your heart beating fast ",
+                    "feel hot and sweaty",
+                    "grind your teeth together or bite in your mouth",
+                    "need the toilet more or less times",
+                    "feel in a panic"
+                ]
+            },
+            "over13": {
+                "title": "",
+                "src": "anxious.jpg",
+                "description": "It's really important to someone know and to get help if you feel like this regularly. Regularly means more than 3 times a week, or you've felt like this a few times a week for longer than weeks.",
+                "symptoms": [
+                    "cry more often or feel like you are going to",
+                    "find it hard to go to or stay asleep",
+                    "wet the bed even though you don't mean to",
+                    "have bad dreams or nightmares",
+                    "have an upset, painful tummy or feel nauseous (sick)",
+                    "feel dizzy or light headed",
+                    "have pins and needles",
+                    "not feel able to sit still ",
+                    "get headaches, backache or other aches and pains",
+                    "have faster breathing and feel your heart beating fast ",
+                    "feel hot and sweaty",
+                    "grind your teeth together, bite inside your mouth, or bite your nails",
+                    "need the toilet more or less than usual",
+                    "feel angry",
+                    "feel in a panic"
+                ]
+            }
+        },
+
+        {
+            "id": 4,
+            "name": "ashamed",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "ashamed.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "ashamed.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 5,
+            "name": "bored",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "bored.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "bored.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 6,
+            "name": "chatty",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "chatty.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "chatty.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 7,
+            "name": "comfortable",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "comfortable.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "comfortable.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 8,
+            "name": "confident",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "confident.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "confident.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 9,
+            "name": "confused",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "confused.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "confused.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 10,
+            "name": "depressed",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "depressed.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "depressed.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 11,
+            "name": "disgusted",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "disgusted.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "disgusted.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 12,
+            "name": "down",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "down.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "down.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 13,
+            "name": "embarrassed",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "embarrassed.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "embarrassed.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 14,
+            "name": "excited",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "excited.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "excited.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 15,
+            "name": "fed up",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "fedup.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "fed up",
+                "src": "fedup.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 16,
+            "name": "friendly",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "friendly.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "friendly.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 17,
+            "name": "frustrated",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "frustrated.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "frustrated.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 18,
+            "name": "guilty",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "guilty.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "guilty.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 19,
+            "name": "happy",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "happy.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "happy.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 20,
+            "name": "hopeless",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "hopeless.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "hopeless.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+      
+        {
+            "id": 21,
+            "name": "quiet",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "quiet.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "quiet.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 22,
+            "name": "relieved",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "relieved.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "relieved.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 23,
+            "name": "sad",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "sad.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "sad.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 24,
+            "name": "satisfied",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "satisfied.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "satisfied.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 25,
+            "name": "scared",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "scared.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "scared.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 26,
+            "name": "surprised",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "surprised.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "surprised.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 27,
+            "name": "upset",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "upset.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "upset.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 28,
+            "name": "worried",
+            "restricted": false,
+            "under13": {
+                "title": "",
+                "src": "worried.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            },
+            "over13": {
+                "title": "",
+                "src": "worried.jpg",
+                "description": "Lorem ipsum",
+                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+            }
+        },
+        {
+            "id": 29,
+            "name": "self-harm",
+            "restricted": true,
+            "under13": {
+                "title": "Self harm and self-injury",
+                "src": "alone.jpg",
+                "description": "Self-harm and self-injury are when someone hurts or harms themself or puts themself in danger or does dangerous things on purpose. \n ###  What do people say that they self harm or self-injure? ### \n There are many different reasons that people say they self-harm or self-injure. Sometimes they do it because of something difficult that is happening or has happened to them in the past. But sometimes they might not know why they’re doing it. Even if you or someone that you know doesn't understand why it's still really important to get help.",
+                "caution": "Sometimes people say things like it’s ‘attention seeking’. But it’s important that anyone who self-harms or self-injures gets the right support, help and advice as soon as possible. \n If you're worried that you or someone else is self-harming or self-injuring themselves, it's really important that you let a trusted adult know. This might be a parent or carer, or a friend's parent or carer, a teacher or your tutor, your doctor, a counsellor or therapist. \n You can also let a counsellor know without saying your name on ChildLine. Call 0800 1111, up to age 19 - they will be able to help you to get the right help.",
+                "symptoms": [
+                    "Self-harm includes cutting, pinching, pulling, tearing, scratching or burning skin, or stopping wounds from healing. -  It's pulling out hair, or punching or banging things until a person starts to bleed. It's deliberately taking medicines without deliberately trying to die (suicidal intention).  Not looking after yourself properly, taking drugs or using alcohol can all be self-harm, too. ",
+                    "There are many different reasons that people say they self-harm or self-injure. Sometimes they do it because of something difficult that is happening or has happened to them in the past. But sometimes they might not know why they’re doing it. Even if you or someone that you know doesn't understand why it's still really important to get help."
+                ]
+            },
+            "over13": {
+                "title": "What is self harm? ",
+                "src": "alone.jpg",
+                "description": "Self-harm and self-injury are when someone deliberately hurts or harms themself or puts themself in danger or does dangerous things. \n ###  What do people say that they self harm or self-injure? ### \n * it shows how they feel without speaking \n * they experience strong emotions such as anger \n * it helps them to cope with negative experiences \n * it distracts from how they’re feeling \n * it punishes them for something, or feel they deserve it \n * it stops them feeling disconnected from themselves or the world \n * it means they have to look after themselves",
+                "caution": "Sometimes people say things like it’s ‘attention seeking’. But it’s important that anyone who self-harms or self-injures gets the right support, help and advice as soon as possible. \n If you're worried that you or someone else is self-harming or self-injuring themselves, it's really important that you let a trusted adult know. This might be a parent or carer, or a friend's parent or carer, a teacher or your tutor, your doctor, a counsellor or therapist. \n You can also let a counsellor know without saying your name on ChildLine. Call 0800 1111, up to age 19 - they will be able to help you to get the right help.",
+                "symptoms": [
+                    "Self-harm includes cutting, pinching, pulling, tearing, scratching or burning skin, or stopping wounds from healing. It's pulling out hair, or punching or banging things until a person starts to bleed. It's deliberately taking medicines without deliberately trying to die (suicidal intention).  Not looking after yourself properly, taking drugs or using alcohol can all be self-harm, too."
+                ]
+            }
+        }
+    ],
+
+    "do-make": [
+        {
+            "id": 1,
+            "emotions": ["worried, anxious"],
+            "under13": true,
+            "over13": true,
+            "title": "Make your own calming, regulating sensory bottle",
+            "caution": null,
+            "description": "You can make a sensory bottle out of a recycled clear plastic bottle, water, oil, and anything that you want to add.. sequins, shells, pebbles, dice, glitter, gems, water beads (orbeez), jingle bells, buttons, rice. What else can you think of to add? ",
+            "src": "sensory-bottle1.jpeg",
+            "how-it-helps": [
+                "Sensory bottles are tested by Scientists.",
+                "They see that they make people feel calmer, less anxious and less worried about things. ",
+                " Watching the shapes and colours slowly move helps us to focus and think about one thing right now..",
+                "This can help us to worry less about something else.",
+                "Moving your hands back and forward helps your heart, mind and body to feel more relaxed. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)"
+            ],
+            "materials": [
+                "Plastic bottle",
+                "the bottle lid",
+                "tap water",
+                "PVA glue (to glue the lid)",
+                "oil - baby oil is best, (you need half a cup of oil)",
+                "felt tip pen",
+                "Funnel (to pour water and oil in)",
+                "Cellotape - if it's needed in case there are any leaks",
+                "Things to go inside the bottle",
+                "Two drops of food colouring to change the colour of the water and oil (if wanted)"
+            ],
+            "instructions": [
+                {
+                    "src": "bottle.png",
+                    "step": [
+                        "Put the funnel in the top of the bottle",
+                        "Half fill the plastic bottle with water",
+                        "Add the dry ingredients (beads, etc.)"
+                    ]
+                },
+                {
+                    "src": "glitter.png",
+                    "step": [
+                        "Add two drops of food colouring (if you are using it)",
+                        " Use a pen to draw a line 2cm from the top of the bottle",
+                        "Add the oil - don't fill past the 2cm pen line "
+                    ]
+                },
+                {
+                    "src": "item.png",
+                    "step": [
+                        "Put PVA glue around the lid of the bottle",
+                        "Screw the lid on tight",
+                        "Leave the PVA glue to dry in the night time",
+                        "Give it a shake when you wake up to check for any leaking water",
+                        "Add cellotape if you need to"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "emotions": ["upset"],
+            "under13": true,
+            "over13": true,
+            "title": "Make a rain stick sensory bottle",
+            "caution": null,
+            "description": "You don't need any water or oil... Use dry rice, pasta, or lentils, small lego, sand, beads, sequins, small plastic animals, floam, magic sand - or anything else that will make a noise! Can you make more than one? Can you find the best sound for you?",
+            "src": "sensory-bottle.jpg",
+            "how-it-helps": null,
+            "materials": [
+                "Plastic bottle",
+                "Bottle lid",
+                "Felt tip pen",
+                "PVA glue",
+                "Cellotape",
+                "Small things that make a noise!"
+            ],
+            "instructions": [
+                {
+                    "src": "shake.png",
+                    "step": [
+                        "Draw a line 2cm from the top of the bottle with a felt tip pen ",
+                        "Slowly fill the bottle up with your small things ",
+                        "Don't fill past the line",
+                        "PVA glue the lid on tight",
+                        "Let the PVA glue dry over night",
+                        "Use cellotape to cover the lid if there are any leaks",
+                        "Shake!"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "emotions": ["anxious, worried"],
+            "under13": true,
+            "over13": true,
+            "title": "Bubblewrap anxiety helper",
+            "caution": null,
+            "description": "Bubble wrap is great for popping when you feel anxious.",
+            "src": "bubble-wrap.png",
+            "how-it-helps": [
+                "Sensory bubble wrap can help you feel calmer, less anxious and less worried about things. ",
+                "Popping the bubble can us to let go of (release) feelings that are in our brain, muscles, nervous system and other parts of our body.",
+                "Popping the bubbles can help us to release feelings such as anxiety, frustration,anger.",
+                "It also helps us to focus and think about one thing right now..",
+                "This can help us to worry less about something else.",
+                "Moving your hands back and forward helps your heart, mind and body to feel more relaxed. ",
+                "It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+
+            "materials": [
+                "Plastic bottle ",
+                "Bottle lid ",
+                "Water",
+                "Oil (baby oil is best)",
+                "Felt tip pen ",
+                "PVA glue",
+                "Cellotape",
+                "2 or 3 Drops of Food colouring ",
+                "Alka Seltzer tablets ",
+                "small light items, such as orbeez, glitter, pom poms, coloured rice (if wanted)",
+                "Jug and funnel to pour (if needed)",
+                "Small things that float!"
+            ],
+            "instructions": [
+                {
+                    "src": null,
+                    "step": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "emotions": ["anxious"],
+            "under13": true,
+            "over13": true,
+            "title": "Make a moving lava lamp bottle",
+            "caution": "Careful! This lava lamp MUST be made with your parent, carer or teacher or other adult! ",
+            "description": "Why Alka-Seltzer tablets? They're effervescent which means they dissolve and fizz out air into water. When the air inside the fizz bubbles reach the top they pop. The air is let out. The coloured water blobs sink down to the bottom. ",
+            "src": "lava-lamp-bottle.png",
+            "how-it-helps": [
+                " Sensory bottles are tested by Scientists. ",
+                "They see that they make people feel calmer, less anxious and less worried about things. ",
+                "Watching the shapes and colours slowly move helps us to focus and think about one thing right now..",
+                "This can help us to worry less about something else.",
+                "Moving your hands back and forward helps your heart, mind and body to feel more relaxed. ",
+                "It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "materials": [
+                "Plastic bottle ",
+                "Bottle lid ",
+                "Water",
+                "Oil (baby oil is best)",
+                "Felt tip pen ",
+                "PVA glue",
+                "Cellotape",
+                "2 or 3 Drops of Food colouring ",
+                "Alka Seltzer tablets ",
+                "small light items, such as orbeez, glitter, pom poms, coloured rice (if wanted)",
+                "Jug and funnel to pour (if needed)",
+                "Small things that float!"
+            ],
+            "instructions": [
+                {
+                    "src": "small-glitter.png",
+                    "step": [
+                        "Draw a line with a felt tip pen 2cm from the top of the bottle",
+                        "Fill your bottle half way up with oil ",
+                        "Pour the water in",
+                        "Don't fill past the 2cm line",
+                        "You can add small items that float like orbeez or glitter "
+                    ]
+                },
+                {
+                    "src": "sensory.png",
+                    "step": [
+                        "Add 2 or 3 drops of food colouring",
+                        "Add the Alka-Seltzer tablet to the bottle",
+                        "IMPORTANT - Keep the lid off until the fizzing chemical reaction stops"
+                    ]
+                },
+                {
+                    "src": "bubbles.png",
+                    "step": [
+                        "Put PVA on the lid and glue the lid on",
+                        "Leave it over night to dry",
+                        "Use cellotape  to cover any leaks"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "emotions": ["worried, upset"],
+            "under13": true,
+            "over13": true,
+            "title": "Giant bubbles",
+            "caution": null,
+            "description": "Bubbles of all sizes can be fun to make and do. These are extra huge, but you can also make great ones using every day things.",
+            "src": "giant-bubbles.png",
+            "how-it-helps": [
+                "These games and ideas are Sensory Regulatory.",
+                "Scientists see that they help you to feel calmer, less anxious and less worried about things.",
+                "This is because you breather in and out carefully when you blow a bubble.",
+                "It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing).You also have to concentrate as you're doing it. ",
+                "Moving your hands back and forward helps your heart, mind and body to feel more relaxed too."
+            ],
+            "materials": [
+                "Plastic bottle to hold the solution afterwards",
+                "Bottle lid ",
+                "Washing up or other big bowl",
+                "Half a teaspoon of Guar gum powder",
+                "1  or 2 teaspoons of Glycerine ",
+                "11 litre of water",
+                "3-5 tablespoons of concentrated washing-up liquid ",
+                "Half a teaspoon baking powder",
+                "A spoon or fork to mix"
+            ],
+            "instructions": [
+                {
+                    "src": "bubbles1.png",
+                    "step": [
+                        "Put the Guar gum powder in the bowl",
+                        "Cover the guar gum powder with the Glycerine powder",
+                        "Add more glycerine and mix these together until you’ve got a very liquid consistency.",
+                        "Slowly add the water ",
+                        "Mix it together with the spoon or fork",
+                        "Add the washing up liquid ",
+                        "Stir gently and don't make the mixture froth (lots of bubbles)",
+                        "Add the baking powder and stir very gently ",
+                        "Add more washing up liquid if your bubbles are popping too soon.",
+                        "Try using: a hula hoop, your hand, a ribbon or string tied in a circle to a string to blow HU"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "emotions": ["angry"],
+            "under13": true,
+            "over13": true,
+            "title": "Tearing paper",
+            "caution": null,
+            "description": "This can be a helpful way to get rid of anger and angry feelings. Any paper will work, but there's lots of free paper in packaging boxes.",
+            "src": "tearing-paper.jpeg",
+            "how-it-helps": [
+                "This can be a helpful way to get rid of anger and angry feelings."
+            ],
+            "materials": [
+                "Tissue paper",
+                "Any paper will work, but there's lots of free paper in packaging boxes."
+            ],
+            "instructions": [
+                {
+                    "src": null,
+                    "step": [
+                        "Tissue paper can be good if you need to break it into tiny pieces. Sometimes it's useful to write or draw what's made you angry or annoyed on the paper before you rip it up"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "emotions": ["angry"],
+            "under13": true,
+            "over13": false,
+            "title": "Draw and write about your anger monster",
+            "caution": null,
+            "description": "What does your anger monster look like? Our one is red and breather fire and sometimes says things that it wished it hadn't said. What does yours do? What does yours say? What will help your anger monster to be less angry in the moment? Anything else?",
+            "src": "drawing.jpg",
+            "how-it-helps": [
+                "People are not an emotion. Talking about your anger monster helps you to see and know that your emotions are feelings that people have. It helps you to see how that feeling shows itself in you. This helps you to notice and see it when it happens."
+            ],
+            "materials": ["Coloured pens, pencils or crayons", "A mirror"],
+            "instructions": [
+                {
+                    "src": "anger-monster.jpg",
+                    "step": [
+                        "Think about your anger monster. What does it do? What happens? Does it have a name?",
+                        "What colour is it?",
+                        "Think about what it sounds like and says.",
+                        "Draw your anger as a monster."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "emotions": ["angry"],
+            "under13": false,
+            "over13": true,
+            "title": "Punching paper, pillow, punch bags and more",
+            "caution": null,
+            "description": "Try these to let your anger out",
+            "src": null,
+            "how-it-helps": [
+                "Doing something that is active helps you to feel like you’re getting it out of you. It also helps you to feel like you’re using your anger and energy in a more useful way. It can help stop anger and angry feelings going around inside you."
+            ],
+            "materials": [
+                "bubble wrap",
+                "paper",
+                "cushions or pillows",
+                "your favourite music and headphones",
+                "skipping rope",
+                "stress ball"
+            ],
+
+            "instructions": [
+                {
+                    "src": null,
+                    "step": [
+                        "Punch through bubble wrap or paper - you can get big sheets for free in packaging and boxes.",
+                        "Shake all the parts of your body - start with your fingers, wrists, arms, body, toes, feet, legs... all of you at random.",
+                        "Hit something that won't hurt you - pile up pillows or cushions and hit, punch, squeeze or throw them hard against the floor.",
+                        "Tear something up into hundreds of pieces.",
+                        "Exercise - go for a run, go for a fast walk.",
+                        "Exercise - go for a run, go for a fast walk.",
+                        "Turn your music up loud and shout and dance.",
+                        "Squeeze a stress ball."
+                    ]
+                }
+            ]
+        }
+    ],
+
+    "play-game": [
+        {
+            "id": 1,
+            "emotions": ["alone", "anxious"],
+            "name": "JustTouchToo",
+            "description": "Just touch too from Sensory is an engaging and relaxing touch effects app",
+            "src": "IMG_0582-min.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/JustTouchToo-pwa/index.html"
+        },
+        {
+            "id": 2,
+            "emotions": ["alone", "lonely", "anxious", "quiet"],
+            "name": "Chrysaora",
+            "description": "Chrysaora is a special kind of graceful jellyfish, with stunning colors.",
+            "src": "IMG_0934.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them. ",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/chrysaora-pwa/index.html"
+        },
+        {
+            "id": 3,
+            "emotions": ["alone", "excited", "down"],
+            "name": "Sandbox",
+            "description": "Sensory SandBox. A box of sand to explore writing letters, words, numbers, symbols and creating unusual sandy drawings.",
+            "src": "IMG_0705-min.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/sandbox-pwa/index.html"
+        }
+    ],
+    "join-go": [
+        {
+            "under13": [
+                {
+                    "id": 1,
+                    "emotions": ["alone", "angry"],
+                    "how-it-helps": "Lorem ipsum",
+                    "title": "Lorem ipsum",
+                    "location": "Lorem ipsum"
+                },
+                {
+                    "id": 2,
+                    "emotions": ["alone", "ashamed"],
+                    "how-it-helps": "Lorem ipsum",
+                    "title": "Lorem ipsum",
+                    "location": "Lorem ipsum"
+                }
+            ],
+            "over13": [
+                {
+                    "id": 1,
+                    "emotions": ["alone", "ashamed"],
+                    "how-it-helps": "Lorem ipsum",
+                    "title": "Lorem ipsum",
+                    "location": "Lorem ipsum"
+                },
+                {
+                    "id": 2,
+                    "emotions": ["alone", "ashamed"],
+                    "how-it-helps": "Lorem ipsum",
+                    "title": "Lorem ipsum",
+                    "location": "Lorem ipsum"
+                }
+            ]
+        }
+    ],
+
+    "chat-speak": [
+        {
+            "under13": {
+                "email": "https://www.childline.org.uk/locker/inbox/",
+                "chat": "https://www.childline.org.uk/login/?returnPath=/get-support/1-2-1-counsellor-chat/chat-entry/",
+                "phone": "08001111"
+            },
+            "over13": {
+                "email": "https://www.themix.org.uk/get-support/speak-to-our-team/email-us",
+                "chat": "https://www.themix.org.uk/get-support/speak-to-our-team",
+                "phone": "08088084994"
+            }
+        }
+    ]
+}

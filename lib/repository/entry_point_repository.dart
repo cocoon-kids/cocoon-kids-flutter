@@ -14,13 +14,13 @@ class EntryPointRepositoryImpl extends EntryPointRepository{
     final appLocalizations = GetIt.instance.get<AppLocalizations>();
     yield [
       EntryPoint(
-          NavigationRoutes.under13,
+          "/${NavigationRoutes.emotions}/${NavigationRoutes.under13}",
           appLocalizations.buttonForUnder13,
           AppColors.yellowDark,
           AppColors.yellowLight
       ),
       EntryPoint(
-          NavigationRoutes.over13,
+          "/${NavigationRoutes.emotions}/${NavigationRoutes.over13}",
           appLocalizations.buttonForOver13,
           AppColors.green,
           AppColors.greenLight
