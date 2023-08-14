@@ -1,6 +1,7 @@
 import 'package:cocoon_kids_flutter/bloc/emotions_cubit.dart';
 import 'package:cocoon_kids_flutter/repository/emotions_repository.dart';
 import 'package:cocoon_kids_flutter/repository/game_repository.dart';
+import 'package:cocoon_kids_flutter/repository/make_do_repository.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
@@ -70,9 +71,14 @@ class EmotionCubit extends Cubit<EmotionState> {
 
   final EmotionsRepository emotionsRepository;
   final GameRepository gameRepository;
+  final MakeDoRepository makeDoRepository;
 
   EmotionCubit(this.ageRange, this.emotionId, this.goRouter,
-      {this.emotionsRepository = const EmotionsRepositoryImpl(), this.gameRepository = const GameRepositoryImpl(), }) : super(EmotionInitState()) {
+      {
+        this.emotionsRepository = const EmotionsRepositoryImpl(),
+        this.gameRepository = const GameRepositoryImpl(),
+        this.makeDoRepository = const MakeDoRepositoryImpl()
+      }) : super(EmotionInitState()) {
     emotionsRepository.getEmotion(ageRange, emotionId).listen((event) {
       final emotion = event.emotion;
       final emotionData = event.emotionDataForAge;
@@ -96,10 +102,20 @@ class EmotionCubit extends Cubit<EmotionState> {
       final stateCast = state as EmotionLoadedState;
       final game = await gameRepository
           .getGame(stateCast.emotion.emotionRootName).first;
-      
-      goRouter.push("/game/${game.id}");
-    } else {
 
+      goRouter.push("/game/${game.id}");
+    }
+  }
+
+  void onMakeDoClicked() async {
+    if (state is EmotionLoadedState) {
+      final stateCast = state as EmotionLoadedState;
+      final makeDo = await makeDoRepository
+          .getMakeDo(stateCast.emotion.emotionRootName).first;
+
+      if (makeDo != null) {
+        goRouter.push("/makedo/${makeDo.id}");
+      }
     }
   }
 }

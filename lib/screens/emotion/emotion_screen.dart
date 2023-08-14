@@ -48,7 +48,7 @@ class _EmotionState extends State<EmotionScreen> {
   }
 
 
-  Widget _buttons({required Function() onPlayGame}) {
+  Widget _buttons({required Function() onPlayGame, required void Function() onMakeDo}) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
@@ -57,7 +57,7 @@ class _EmotionState extends State<EmotionScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              _button(onPressed: () => "", text: "Make/Do"),
+              _button(onPressed: onMakeDo, text: "Make/Do"),
               const SizedBox(width: 16,),
               _button(onPressed: onPlayGame, text: "Play/Game"),
             ]
@@ -124,7 +124,10 @@ class _EmotionState extends State<EmotionScreen> {
               )
           ),
         ),
-        _buttons(onPlayGame: () => cubit.onPlayClicked()),
+        _buttons(
+          onMakeDo: () => cubit.onMakeDoClicked(),
+          onPlayGame: () => cubit.onPlayClicked(),
+        ),
       ],
     );
   }

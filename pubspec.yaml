@@ -75,6 +75,7 @@ flutter:
      - assets/db.json
      - assets/images/emotions/over13/
      - assets/images/emotions/under13/
+     - assets/images/do/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

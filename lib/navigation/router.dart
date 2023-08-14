@@ -3,6 +3,7 @@ import 'package:cocoon_kids_flutter/repository/emotions_repository.dart';
 import 'package:cocoon_kids_flutter/screens/contact/ContactScreen.dart';
 import 'package:cocoon_kids_flutter/screens/dialog_page.dart';
 import 'package:cocoon_kids_flutter/screens/emotion/emotion_screen.dart';
+import 'package:cocoon_kids_flutter/screens/emotion/make_do_screen.dart';
 import 'package:cocoon_kids_flutter/screens/emotions/emotions_screen.dart';
 import 'package:cocoon_kids_flutter/screens/game/play_game_screen.dart';
 import 'package:cocoon_kids_flutter/screens/homepage/homepage_screen.dart';
@@ -73,6 +74,12 @@ final GoRouter router = GoRouter(
               ageRange: ageRangeEnum,
               emotionId: emotion,
             );
+          },
+        ),
+        GoRoute(
+          path: 'makedo/:id',
+          builder: (BuildContext context, GoRouterState state) {
+            return MakeDoScreen(int.parse(state.pathParameters["id"]!));
           },
         ),
         GoRoute(
