@@ -1,7 +1,10 @@
 import 'package:cocoon_kids_flutter/navigation/routes.dart';
 import 'package:cocoon_kids_flutter/repository/emotions_repository.dart';
+import 'package:cocoon_kids_flutter/screens/contact/ContactScreen.dart';
+import 'package:cocoon_kids_flutter/screens/dialog_page.dart';
 import 'package:cocoon_kids_flutter/screens/emotion/emotion_screen.dart';
 import 'package:cocoon_kids_flutter/screens/emotions/emotions_screen.dart';
+import 'package:cocoon_kids_flutter/screens/game/play_game_screen.dart';
 import 'package:cocoon_kids_flutter/screens/homepage/homepage_screen.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
@@ -71,6 +74,16 @@ final GoRouter router = GoRouter(
               emotionId: emotion,
             );
           },
+        ),
+        GoRoute(
+          path: 'game/:id',
+          builder: (BuildContext context, GoRouterState state) {
+            return PlayGameScreen(int.parse(state.pathParameters["id"]!));
+          },
+        ),
+        GoRoute(
+          path: 'contact',
+          pageBuilder: (context, state) => DialogPage(child: ContactScreen())
         ),
       ],
     ),

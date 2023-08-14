@@ -16,6 +16,6 @@ void main() {
 
     final emotion = await emotionsRepository.getEmotion(AgeRange.over13, 5).first;
 
-    expect(emotion.image, "bored.jpg");
+    expect(emotion.emotionDataForAge.image, "bored.jpg");
   });
 }

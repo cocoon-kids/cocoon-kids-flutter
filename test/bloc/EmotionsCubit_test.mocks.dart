@@ -38,7 +38,7 @@ class MockEmotionsRepository extends _i1.Mock
         returnValue: _i3.Stream<List<_i4.Emotion>>.empty(),
       ) as _i3.Stream<List<_i4.Emotion>>);
   @override
-  _i3.Stream<_i4.EmotionDataForAge> getEmotion(
+  _i3.Stream<_i2.EmotionWithAgeAppropriateData> getEmotion(
     _i2.AgeRange? ageRange,
     int? id,
   ) =>
@@ -50,6 +50,6 @@ class MockEmotionsRepository extends _i1.Mock
             id,
           ],
         ),
-        returnValue: _i3.Stream<_i4.EmotionDataForAge>.empty(),
-      ) as _i3.Stream<_i4.EmotionDataForAge>);
+        returnValue: _i3.Stream<_i2.EmotionWithAgeAppropriateData>.empty(),
+      ) as _i3.Stream<_i2.EmotionWithAgeAppropriateData>);
 }

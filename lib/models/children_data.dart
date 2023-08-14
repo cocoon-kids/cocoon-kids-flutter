@@ -1,10 +1,48 @@
+
+
+class Game {
+  int id;
+  List<String> emotions;
+  String name;
+  String description;
+  String src;
+  List<String> howItHelps;
+  String game;
+
+  Game(
+      this.id,
+      this.emotions,
+      this.name,
+      this.description,
+      this.src,
+      this.howItHelps,
+      this.game
+      );
+
+  Game.fromJson(Map<String, dynamic> json):
+        id = json['id'],
+        emotions = json['emotions'].cast<String>(),
+        name = json['name'],
+        description = json['description'],
+        src = json['src'],
+        howItHelps = json['how-it-helps'].cast<String>(),
+        game = json['game'];
+
+  @override
+  String toString() {
+    return 'Game{id: $id, emotions: $emotions, name: $name, description: $description, src: $src, howItHelps: $howItHelps, game: $game}';
+  }
+}
+
 class ChildrenData {
   List<Emotion> emotions;
+  List<Game> games;
 
-  ChildrenData(this.emotions,);
+  ChildrenData(this.emotions, this.games);
 
   ChildrenData.fromJson(Map<String, dynamic> json)
-      : emotions = (json['emotions'] as List).map((e) => Emotion.fromJson(e)).toList();
+      : emotions = (json['emotions'] as List).map((e) => Emotion.fromJson(e)).toList(),
+        games = (json['play-game'] as List).map((e) => Game.fromJson(e)).toList();
 }
 
 class EmotionDataForAge {
@@ -33,7 +71,6 @@ class Emotion {
   bool restricted;
   EmotionDataForAge under13;
   EmotionDataForAge over13;
-
 
   Emotion(this.id, this.name, this.restricted, this.under13, this.over13);
 

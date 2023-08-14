@@ -3,6 +3,7 @@ import 'package:cocoon_kids_flutter/colors/colors.dart';
 import 'package:cocoon_kids_flutter/repository/emotions_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 
 class TextStyles {
   static const mainTitleStyle = TextStyle(
@@ -47,7 +48,7 @@ class _EmotionState extends State<EmotionScreen> {
   }
 
 
-  Widget _buttons() {
+  Widget _buttons({required Function() onPlayGame}) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
@@ -58,7 +59,7 @@ class _EmotionState extends State<EmotionScreen> {
             children: [
               _button(onPressed: () => "", text: "Make/Do"),
               const SizedBox(width: 16,),
-              _button(onPressed: () => "", text: "Play/Game"),
+              _button(onPressed: onPlayGame, text: "Play/Game"),
             ]
         ),
         Row(
@@ -105,7 +106,10 @@ class _EmotionState extends State<EmotionScreen> {
     );
   }
 
-  Widget _mainContent(EmotionDetailUiModel model) {
+  Widget _mainContent(EmotionCubit cubit) {
+    final state = cubit.state as EmotionLoadedState;
+    final model = state.emotion;
+
     return Column(
       children: [
         Expanded(
@@ -120,7 +124,7 @@ class _EmotionState extends State<EmotionScreen> {
               )
           ),
         ),
-        _buttons(),
+        _buttons(onPlayGame: () => cubit.onPlayClicked()),
       ],
     );
   }
@@ -130,14 +134,14 @@ class _EmotionState extends State<EmotionScreen> {
     return Scaffold(
         backgroundColor: AppColors.yellowLight,
         body: BlocProvider(
-          create: (_) => EmotionCubit(widget.ageRange, widget.emotionId),
+          create: (_) => EmotionCubit(widget.ageRange, widget.emotionId, GoRouter.of(context)),
           child: BlocBuilder<EmotionCubit, EmotionState>(
               builder: (context, state) {
                 if (state is EmotionLoadedState) {
                   return SafeArea(
                       child: Padding(
                           padding: const EdgeInsets.all(8),
-                          child: _mainContent(state.emotion)
+                          child: _mainContent(context.read<EmotionCubit>())
                       )
                   );
                 } else {

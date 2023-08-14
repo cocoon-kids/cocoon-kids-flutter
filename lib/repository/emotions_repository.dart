@@ -1,6 +1,5 @@
-import 'dart:convert';
-
 import 'package:cocoon_kids_flutter/models/children_data.dart';
+import 'package:cocoon_kids_flutter/repository/database.dart';
 import 'package:cocoon_kids_flutter/repository/file_loader.dart';
 
 enum AgeRange {
@@ -17,9 +16,16 @@ EmotionDataForAge getEmotionData(AgeRange ageRange, Emotion e) {
   }
 }
 
+class EmotionWithAgeAppropriateData {
+  final Emotion emotion;
+  final EmotionDataForAge emotionDataForAge;
+
+  EmotionWithAgeAppropriateData(this.emotion, this.emotionDataForAge);
+}
+
 abstract class EmotionsRepository {
   Stream<List<Emotion>> getEmotions();
-  Stream<EmotionDataForAge> getEmotion(AgeRange ageRange, int id);
+  Stream<EmotionWithAgeAppropriateData> getEmotion(AgeRange ageRange, int id);
 
   const EmotionsRepository();
 }
@@ -31,17 +37,21 @@ class EmotionsRepositoryImpl extends EmotionsRepository {
 
   @override
   Stream<List<Emotion>> getEmotions() async* {
-    final db = jsonDecode(await fileLoader.loadFileAsString("assets/db.json"));
-    yield ChildrenData.fromJson(db).emotions;
+    final db = await loadDatabase();
+
+    yield db.emotions;
   }
 
   @override
-  Stream<EmotionDataForAge> getEmotion(AgeRange ageRange, int id) async* {
-    final db = jsonDecode(await fileLoader.loadFileAsString("assets/db.json"));
+  Stream<EmotionWithAgeAppropriateData> getEmotion(AgeRange ageRange, int id) async* {
+    final db = await loadDatabase(fileLoader);
 
-    final emotions = ChildrenData.fromJson(db).emotions;
+    final emotions = db.emotions;
     final emotion = emotions.firstWhere((e) => e.id == id);
 
-    yield getEmotionData(ageRange, emotion);
+    yield EmotionWithAgeAppropriateData(
+        emotion,
+        getEmotionData(ageRange, emotion)
+    );
   }
 }
