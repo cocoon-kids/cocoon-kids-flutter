@@ -19,12 +19,15 @@ EmotionDataForAge getEmotionData(AgeRange ageRange, Emotion e) {
 
 abstract class EmotionsRepository {
   Stream<List<Emotion>> getEmotions();
+  Stream<EmotionDataForAge> getEmotion(AgeRange ageRange, int id);
+
+  const EmotionsRepository();
 }
 
 class EmotionsRepositoryImpl extends EmotionsRepository {
-  AssetLoader fileLoader;
+  final AssetLoader fileLoader;
 
-  EmotionsRepositoryImpl(this.fileLoader);
+  const EmotionsRepositoryImpl([this.fileLoader = const AssetLoaderImpl()]);
 
   @override
   Stream<List<Emotion>> getEmotions() async* {
@@ -32,6 +35,7 @@ class EmotionsRepositoryImpl extends EmotionsRepository {
     yield ChildrenData.fromJson(db).emotions;
   }
 
+  @override
   Stream<EmotionDataForAge> getEmotion(AgeRange ageRange, int id) async* {
     final db = jsonDecode(await fileLoader.loadFileAsString("assets/db.json"));
 

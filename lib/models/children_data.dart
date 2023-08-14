@@ -34,6 +34,9 @@ class Emotion {
   EmotionDataForAge under13;
   EmotionDataForAge over13;
 
+
+  Emotion(this.id, this.name, this.restricted, this.under13, this.over13);
+
   Emotion.fromJson(Map<String, dynamic> json)
       : id = json['id'],
         name = json['name'],

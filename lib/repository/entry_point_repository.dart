@@ -6,9 +6,11 @@ import 'package:get_it/get_it.dart';
 
 abstract class EntryPointRepository {
   Stream<List<EntryPoint>> getEntryPoints();
+
+  const EntryPointRepository();
 }
 
-class EntryPointRepositoryImpl extends EntryPointRepository{
+class EntryPointRepositoryImpl extends EntryPointRepository {
   @override
   Stream<List<EntryPoint>> getEntryPoints() async* {
     final appLocalizations = GetIt.instance.get<AppLocalizations>();
@@ -39,4 +41,6 @@ class EntryPointRepositoryImpl extends EntryPointRepository{
       ),
     ];
   }
+
+  const EntryPointRepositoryImpl();
 }

@@ -1,6 +1,6 @@
 import 'package:cocoon_kids_flutter/bloc/emotions_cubit.dart';
 import 'package:cocoon_kids_flutter/repository/emotions_repository.dart';
-import 'package:cocoon_kids_flutter/repository/file_loader.dart';
+import 'package:collection/collection.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class EmotionDetailUiModel {
@@ -15,25 +15,57 @@ class EmotionDetailUiModel {
     required this.symptoms,
     required this.imagePath
   });
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is EmotionDetailUiModel &&
+          runtimeType == other.runtimeType &&
+          name == other.name &&
+          description == other.description &&
+          const ListEquality().equals(symptoms, other.symptoms) &&
+          imagePath == other.imagePath;
+
+  @override
+  int get hashCode =>
+      name.hashCode ^
+      description.hashCode ^
+      symptoms.hashCode ^
+      imagePath.hashCode;
 }
 
 abstract class EmotionState { }
 
-class EmotionInitState extends EmotionState {}
+class EmotionInitState extends EmotionState {
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+          other is EmotionLoadedState &&
+              runtimeType == other.runtimeType;
+}
 
 class EmotionLoadedState extends EmotionState {
   final EmotionDetailUiModel emotion;
 
   EmotionLoadedState(this.emotion);
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is EmotionLoadedState &&
+          runtimeType == other.runtimeType &&
+          emotion == other.emotion;
+
+  @override
+  int get hashCode => emotion.hashCode;
 }
 
 class EmotionCubit extends Cubit<EmotionState> {
   final AgeRange ageRange;
   final int emotionId;
 
-  final repository = EmotionsRepositoryImpl(AssetLoaderImpl());
+  final EmotionsRepository repository;
 
-  EmotionCubit(this.ageRange, this.emotionId) : super(EmotionInitState()) {
+  EmotionCubit(this.ageRange, this.emotionId, {this.repository = const EmotionsRepositoryImpl()}) : super(EmotionInitState()) {
     repository.getEmotion(ageRange, emotionId).listen((event) {
       emit(
           EmotionLoadedState(
