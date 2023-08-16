@@ -1,6 +1,7 @@
 import 'package:cocoon_kids_flutter/bloc/emotion_cubit.dart';
 import 'package:cocoon_kids_flutter/colors/colors.dart';
 import 'package:cocoon_kids_flutter/repository/emotions_repository.dart';
+import 'package:cocoon_kids_flutter/screens/app_scaffold.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
@@ -12,6 +13,10 @@ class TextStyles {
   );
   static const cardTitleStyle = TextStyle(
       fontSize: 20,
+      fontWeight: FontWeight.bold
+  );
+  static const cardSubtitleStyle = TextStyle(
+      fontSize: 18,
       fontWeight: FontWeight.bold
   );
 }
@@ -134,19 +139,14 @@ class _EmotionState extends State<EmotionScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return AppScaffold(
         backgroundColor: AppColors.yellowLight,
         body: BlocProvider(
           create: (_) => EmotionCubit(widget.ageRange, widget.emotionId, GoRouter.of(context)),
           child: BlocBuilder<EmotionCubit, EmotionState>(
               builder: (context, state) {
                 if (state is EmotionLoadedState) {
-                  return SafeArea(
-                      child: Padding(
-                          padding: const EdgeInsets.all(8),
-                          child: _mainContent(context.read<EmotionCubit>())
-                      )
-                  );
+                  return _mainContent(context.read<EmotionCubit>());
                 } else {
                   return const CircularProgressIndicator();
                 }

@@ -1,5 +1,6 @@
 import 'package:cocoon_kids_flutter/bloc/make_do_cubit.dart';
 import 'package:cocoon_kids_flutter/colors/colors.dart';
+import 'package:cocoon_kids_flutter/screens/app_scaffold.dart';
 import 'package:cocoon_kids_flutter/screens/emotion/emotion_screen.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/cupertino.dart';
@@ -95,19 +96,14 @@ class _MakeDoScreen extends State<MakeDoScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return AppScaffold(
       backgroundColor: AppColors.yellowLight,
       body: BlocProvider(
           create: (_) => MakeDoCubit(widget.makeDoId),
           child: BlocBuilder<MakeDoCubit, MakeDoState>(
             builder: (context, state) {
               if (state is MakeDoLoadedState) {
-                return SafeArea(
-                    child: Padding(
-                        padding: const EdgeInsets.all(8),
-                        child: SingleChildScrollView(child: _mainContent(state))
-                    )
-                );
+                return SingleChildScrollView(child: _mainContent(state));
               } else {
                 return const CircularProgressIndicator();
               }

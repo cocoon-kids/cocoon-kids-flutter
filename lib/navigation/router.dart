@@ -1,5 +1,6 @@
 import 'package:cocoon_kids_flutter/navigation/routes.dart';
 import 'package:cocoon_kids_flutter/repository/emotions_repository.dart';
+import 'package:cocoon_kids_flutter/screens/about/about_screen.dart';
 import 'package:cocoon_kids_flutter/screens/contact/ContactScreen.dart';
 import 'package:cocoon_kids_flutter/screens/dialog_page.dart';
 import 'package:cocoon_kids_flutter/screens/emotion/emotion_screen.dart';
@@ -89,8 +90,12 @@ final GoRouter router = GoRouter(
           },
         ),
         GoRoute(
-          path: 'contact',
-          pageBuilder: (context, state) => DialogPage(child: ContactScreen())
+            path: 'contact',
+            pageBuilder: (context, state) => DialogPage(child: ContactScreen())
+        ),
+        GoRoute(
+            path: 'about',
+            builder: (context, state) => AboutScreen()
         ),
       ],
     ),

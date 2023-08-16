@@ -26,5 +26,13 @@
   "buttonForINeedPrivacy": "I need privacy, exit now!",
   "@buttonForINeedPrivacy": {
     "description": "Button text for I need privacy"
+  },
+  "aboutUsTitle": "Founded by four like-minded people with lived-experience of Adverse Childhood Experiences (ACEs), mental health and wellbeing challenges, poverty and social housing, Cocoon Kids - Creative Counselling and Play Therapy is a not-for-profit therapeutic service which children, young people, families and the professionals who support them, use to safely explore their experiences. We firmly believe in mental health and wellbeing equity and fully-fund sessions for local disadvantaged families.\n\nWe hope that you find our app useful, Helene and the Cocoon Kids team xx xx",
+  "@aboutUsTitle": {
+    "description": "About us card title"
+  },
+  "aboutUsDescription": "Founded by four like-minded people with lived-experience of Adverse Childhood Experiences (ACEs), mental health and wellbeing challenges, poverty and social housing, Cocoon Kids - Creative Counselling and Play Therapy is a not-for-profit therapeutic service which children, young people, families and the professionals who support them, use to safely explore their experiences. We firmly believe in mental health and wellbeing equity and fully-fund sessions for local disadvantaged families.\n\nWe hope that you find our app useful, Helene and the Cocoon Kids team xx xx",
+  "@aboutUsDescription": {
+    "description": "Text content in the about us card"
   }
 }
