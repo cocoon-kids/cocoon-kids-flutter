@@ -37,7 +37,7 @@ class EmotionsRepositoryImpl extends EmotionsRepository {
 
   @override
   Stream<List<Emotion>> getEmotions() async* {
-    final db = await loadDatabase();
+    final db = await loadDatabase(fileLoader);
 
     yield db.emotions;
   }

@@ -8,6 +8,8 @@ import 'package:cocoon_kids_flutter/screens/emotion/make_do_screen.dart';
 import 'package:cocoon_kids_flutter/screens/emotions/emotions_screen.dart';
 import 'package:cocoon_kids_flutter/screens/game/play_game_screen.dart';
 import 'package:cocoon_kids_flutter/screens/homepage/homepage_screen.dart';
+import 'package:cocoon_kids_flutter/screens/privacy/privacy_screen.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:get_it/get_it.dart';
@@ -100,6 +102,10 @@ final GoRouter router = GoRouter(
             builder: (context, state) => AboutScreen()
         ),
       ],
+    ),
+    GoRoute(
+        path: '/privacy',
+        builder: (context, state) => const PrivacyScreen()
     ),
   ],
 );

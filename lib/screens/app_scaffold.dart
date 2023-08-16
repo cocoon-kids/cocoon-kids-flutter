@@ -1,4 +1,5 @@
 import 'package:cocoon_kids_flutter/navigation/router.dart';
+import 'package:cocoon_kids_flutter/screens/homepage/urgent_options_view.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -41,7 +42,13 @@ class _AppScaffoldState extends State<AppScaffold> {
       body: SafeArea(
           child: Padding(
               padding: const EdgeInsets.all(8),
-              child: widget.body
+              child: Column(
+                children: [
+                  UrgentOptionsView(),
+                  const SizedBox(height: 8),
+                  Expanded(child: widget.body),
+                ],
+              )
           )
       ),
       appBar: widget.title == null ? null : AppBar(

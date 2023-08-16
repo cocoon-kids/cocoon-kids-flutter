@@ -1,7 +1,6 @@
 import 'package:cocoon_kids_flutter/bloc/entry_points_cubit.dart';
 import 'package:cocoon_kids_flutter/screens/app_scaffold.dart';
 import 'package:cocoon_kids_flutter/screens/homepage/entry_points_view.dart';
-import 'package:cocoon_kids_flutter/screens/homepage/urgent_options_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -47,14 +46,11 @@ class _HomepageState extends State<Homepage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const SizedBox(height: 16),
             const Text(
               'Cocoon Kids Big Hug is a therapeutic service for children and young people',
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 8),
-            UrgentOptionsView(),
-            const SizedBox(height: 16),
             Expanded(
               child: BlocProvider(
                 create: (_) => EntryPointsCubit(),

@@ -32,9 +32,9 @@ class UrgentOptionsView extends StatelessWidget {
             icon: const Icon(Icons.arrow_circle_right),
             label: Text(AppLocalizations.of(context)!.buttonForUrgentHelp)
         ),
-        const SizedBox(height: 16,),
+        const SizedBox(height: 8,),
         ElevatedButton.icon(
-            onPressed: () => {},
+            onPressed: () => { context.go("/privacy") },
             style: exitButtonStyle,
             icon: const Icon(Icons.arrow_circle_right),
             label: Text(AppLocalizations.of(context)!.buttonForINeedPrivacy)
