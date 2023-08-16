@@ -80,7 +80,9 @@ final GoRouter router = GoRouter(
         GoRoute(
           path: 'makedo/:id',
           builder: (BuildContext context, GoRouterState state) {
-            return MakeDoScreen(int.parse(state.pathParameters["id"]!));
+            final ids = state.pathParameters["id"]!.split(",")
+                .map((e) => int.parse(e));
+            return MakeDoScreen(ids);
           },
         ),
         GoRoute(

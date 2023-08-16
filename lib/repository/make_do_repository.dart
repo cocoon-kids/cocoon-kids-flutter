@@ -1,11 +1,12 @@
 import 'package:cocoon_kids_flutter/models/children_data.dart';
 import 'package:cocoon_kids_flutter/repository/database.dart';
+import 'package:cocoon_kids_flutter/repository/emotions_repository.dart';
 import 'package:cocoon_kids_flutter/repository/file_loader.dart';
-import 'package:collection/collection.dart';
 
 abstract class MakeDoRepository {
-  Stream<MakeDo?> getMakeDo(String emotionName);
+  Stream<Iterable<MakeDo>> getMakeDoListForEmotion(String emotionName, AgeRange ageRange);
   Stream<MakeDo> getMakeDoById(int id);
+  Stream<Iterable<MakeDo>> getMakeDoListByIds(Iterable<int> ids);
 
   const MakeDoRepository();
 }
@@ -20,12 +21,24 @@ class MakeDoRepositoryImpl extends MakeDoRepository {
   }
 
   @override
-  Stream<MakeDo?> getMakeDo(String emotionName) {
-    return getMakeDoList().map((event) => event.firstWhereOrNull((element) => element.emotions.contains(emotionName)));
+  Stream<Iterable<MakeDo>> getMakeDoListForEmotion(String emotionName, AgeRange ageRange) {
+    return getMakeDoList().map((event) => event.where(
+            (element) {
+          final isAppropriateForAge = (ageRange == AgeRange.under13 && element.under13) ||
+              (ageRange == AgeRange.over13 && element.over13);
+          return element.emotions.contains(emotionName) && isAppropriateForAge;
+        }
+    )
+    );
   }
 
   @override
   Stream<MakeDo> getMakeDoById(int id) {
     return getMakeDoList().map((event) => event.firstWhere((element) => element.id == id));
+  }
+
+  @override
+  Stream<Iterable<MakeDo>> getMakeDoListByIds(Iterable<int> ids,) {
+    return getMakeDoList().map((event) => event.where((element) => ids.contains(element.id)));
   }
 }

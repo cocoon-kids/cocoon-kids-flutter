@@ -111,10 +111,11 @@ class EmotionCubit extends Cubit<EmotionState> {
     if (state is EmotionLoadedState) {
       final stateCast = state as EmotionLoadedState;
       final makeDo = await makeDoRepository
-          .getMakeDo(stateCast.emotion.emotionRootName).first;
+          .getMakeDoListForEmotion(stateCast.emotion.emotionRootName, ageRange)
+          .first;
 
-      if (makeDo != null) {
-        goRouter.push("/makedo/${makeDo.id}");
+      if (makeDo.isNotEmpty) {
+        goRouter.push("/makedo/${makeDo.map((e) => e.id).join(",")}");
       }
     }
   }

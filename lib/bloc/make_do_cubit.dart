@@ -26,33 +26,36 @@ abstract class MakeDoState {}
 class MakeDoInitState extends MakeDoState { }
 
 class MakeDoLoadedState extends MakeDoState {
-  final MakeDoUiModel model;
+  final Iterable<MakeDoUiModel> model;
 
   MakeDoLoadedState(this.model);
 }
 
 class MakeDoCubit extends Cubit<MakeDoState> {
-  final int id;
+  final Iterable<int> ids;
   final MakeDoRepository repository;
 
-  MakeDoCubit(this.id, [this.repository = const MakeDoRepositoryImpl()]): super(MakeDoInitState()) {
-    repository.getMakeDoById(id).listen((event) {
-      final imagePath = event.src == null ? null : "assets/images/do/${event.src}";
-      emit(MakeDoLoadedState(
-          MakeDoUiModel(
-              event.title,
-              event.description,
-              imagePath,
-              event.howItHelps,
-              event.caution,
-              event.materials,
-              event.instructions.map((e) {
-                final instrImagePath = e.src == null ? null : "assets/images/do/${e.src}";
+  MakeDoCubit(this.ids, [this.repository = const MakeDoRepositoryImpl()]): super(MakeDoInitState()) {
+    repository.getMakeDoListByIds(ids).listen((makeDoList) {
 
-                return InstructionUiModel(instrImagePath, e.step);
-              }).toList()
-          )
-      ));
+      final uiModelList = makeDoList.map((event) {
+        final imagePath = event.src == null ? null : "assets/images/do/${event.src}";
+
+        return MakeDoUiModel(
+            event.title,
+            event.description,
+            imagePath,
+            event.howItHelps,
+            event.caution,
+            event.materials,
+            event.instructions.map((e) {
+              final instrImagePath = e.src == null ? null : "assets/images/do/${e.src}";
+
+              return InstructionUiModel(instrImagePath, e.step);
+            }).toList()
+        );
+      });
+      emit(MakeDoLoadedState(uiModelList));
     });
   }
 }
