@@ -32,7 +32,6 @@ class _AppScaffoldState extends State<AppScaffold> {
   final navBarOptions = [
     _TextAndIcon("Home", Icons.home),
     _TextAndIcon("Contact", Icons.contact_page_outlined,),
-    _TextAndIcon("Videos", Icons.video_library,),
     _TextAndIcon("Games", Icons.games,),
     _TextAndIcon("About", Icons.info ,),
   ];
