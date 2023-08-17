@@ -53,9 +53,9 @@ class _AppScaffoldState extends State<AppScaffold> {
     } else if (location == "/contact") {
       selectedIndex = 1;
     } else if (location == "/about") {
-      selectedIndex = 2;
-    } else if (location == "/games") {
       selectedIndex = 3;
+    } else if (location == "/games") {
+      selectedIndex = 2;
     } else {
       selectedIndex = -1;
     }
