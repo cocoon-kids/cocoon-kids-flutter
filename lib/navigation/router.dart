@@ -6,6 +6,7 @@ import 'package:cocoon_kids_flutter/screens/dialog_page.dart';
 import 'package:cocoon_kids_flutter/screens/emotion/emotion_screen.dart';
 import 'package:cocoon_kids_flutter/screens/emotion/make_do_screen.dart';
 import 'package:cocoon_kids_flutter/screens/emotions/emotions_screen.dart';
+import 'package:cocoon_kids_flutter/screens/game/games_screen.dart';
 import 'package:cocoon_kids_flutter/screens/game/play_game_screen.dart';
 import 'package:cocoon_kids_flutter/screens/homepage/homepage_screen.dart';
 import 'package:cocoon_kids_flutter/screens/privacy/privacy_screen.dart';
@@ -100,6 +101,10 @@ final GoRouter router = GoRouter(
         GoRoute(
             path: 'about',
             builder: (context, state) => AboutScreen()
+        ),
+        GoRoute(
+            path: 'games',
+            builder: (context, state) => const GamesScreen()
         ),
       ],
     ),

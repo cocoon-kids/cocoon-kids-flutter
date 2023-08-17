@@ -1,6 +1,5 @@
 {
     "emotions": [
-
         {
             "id": 1,
             "name": "lonely",
@@ -45,7 +44,6 @@
                 ]
             }
         },
-         
         {
             "id": 2,
             "name": "angry",
@@ -74,71 +72,29 @@
             }
         },
         {
-            "id": 3,
-            "name": "anxious",
-            "restricted": false,
-            "under13": {
-                "title": "",
-                "src": "anxious.jpg",
-                "description": "Anxiety is feeling that everybody gets. How do you know if you're feeling anxious? You might...",
-                "symptoms": [
-                    "cry more",
-                    "have a store tummy or feel sick",
-                    "feel dizzy or shaky",
-                    "bite or pick at your nails, skin or hair",
-                    "find it hard to go to or stay asleep",
-                    "wet your bed or clothes",
-                    "have bad dreams",
-                    " think about the same thing again and again",
-                    "have pins and needles",
-                    "not be able to sit still easily",
-                    "get headaches, backache or other aches and pains",
-                    "have fast breathing and feel your heart beating fast ",
-                    "feel hot and sweaty",
-                    "grind your teeth together or bite in your mouth",
-                    "need the toilet more or less times",
-                    "feel in a panic"
-                ]
-            },
-            "over13": {
-                "title": "",
-                "src": "anxious.jpg",
-                "description": "It's really important to someone know and to get help if you feel like this regularly. Regularly means more than 3 times a week, or you've felt like this a few times a week for longer than weeks.",
-                "symptoms": [
-                    "cry more often or feel like you are going to",
-                    "find it hard to go to or stay asleep",
-                    "wet the bed even though you don't mean to",
-                    "have bad dreams or nightmares",
-                    "have an upset, painful tummy or feel nauseous (sick)",
-                    "feel dizzy or light headed",
-                    "have pins and needles",
-                    "not feel able to sit still ",
-                    "get headaches, backache or other aches and pains",
-                    "have faster breathing and feel your heart beating fast ",
-                    "feel hot and sweaty",
-                    "grind your teeth together, bite inside your mouth, or bite your nails",
-                    "need the toilet more or less than usual",
-                    "feel angry",
-                    "feel in a panic"
-                ]
-            }
-        },
-
-        {
             "id": 4,
             "name": "ashamed",
             "restricted": false,
             "under13": {
                 "title": "",
                 "src": "ashamed.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling ashamed means you feel bad about something you feel you did wrong or about something you think you should have done differently.",
+                "symptoms": [
+                    "Feeling like you want to hide or avoid others.",
+                    "Having thoughts of being a bad person.",
+                    "Wanting to apologise or make things right."
+                ]
             },
             "over13": {
                 "title": "",
                 "src": "ashamed.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "You might feel guilty or regret what you did or did't do ?",
+                "symptoms": [
+                    "You might want to hide and avoid people. (?)",
+                    "You might tell yourself you're no good or a failure.",
+                    "You might want to apologise and say sorry. You might also want to do something to make up for what you feel you did wrong.",
+                    "A desire to take responsibility for one's actions and make amends."
+                ]
             }
         },
         {
@@ -148,14 +104,22 @@
             "under13": {
                 "title": "",
                 "src": "bored.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling bored means you are not interested in what you are doing or nothing seems exciting to you right now.",
+                "symptoms": [
+                    "You might feel like time is moving very slowly.",
+                    "It could be hard to focus on things or activities.",
+                    "You may feel a bit restless and want something fun to do."
+                ]
             },
             "over13": {
                 "title": "",
                 "src": "bored.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling bored means feeling like nothing is interesting or exciting.",
+                "symptoms": [
+                    "You might not enjoy doing your usual hobbies or interests.",
+                    "Time may seem to pass slowly, making you feel like you're waiting for something.",
+                    "Your mind and your body might find it hard to sit or stay still. You feel like you want to do something that feels more exciting."
+                ]
             }
         },
         {
@@ -165,14 +129,22 @@
             "under13": {
                 "title": "",
                 "src": "chatty.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling chatty means you want to talk a lot and share your thoughts and feelings with others.",
+                "symptoms": [
+                    "You feel like you have a lot to say and want to talk with your friends or family.",
+                    "You might feel happy and excited while chatting.",
+                    "Sometimes, you might talk more than usual because you are in a talkative mood."
+                ]
             },
             "over13": {
                 "title": "",
                 "src": "chatty.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "When you feel chatty, you'll want to talk to people and share your thoughts, feelings and emotions more than usual.",
+                "symptoms": [
+                    "You might feel like you want to get together with other people more than you usually do.",
+                    "You might find that it feels good when you share your thoughts, feelings and emotions as you talk to people.",
+                    "You might notice that you feel happy as you talk about things with other people. You might also want to share more about the things that feel important to talk about."
+                ]
             }
         },
         {
@@ -180,16 +152,24 @@
             "name": "comfortable",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Comfortable",
                 "src": "comfortable.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling comfortable means you feel relaxed, safe, and content with yourself and your surroundings(the things, room or space round you).",
+                "symptoms": [
+                    "You might feel happy and not worried about anything.",
+                    "Your body and mind might feel calm and peaceful.",
+                    "You feel happy and secure in your environment."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Comfortable",
                 "src": "comfortable.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "When you feel comfortable you'll usually feel happy, relaxed. You might also feel like there's nothing big or troublesome that's worrying you.",
+                "symptoms": [
+                    "A feeling of relaxation and peace within yourself and your surroundings.",
+                    "Feeling like you're safe and happy right where you are.",
+                    "Feeling comfortable and like you don't have any big worries."
+                ]
             }
         },
         {
@@ -197,16 +177,24 @@
             "name": "confident",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Confident",
                 "src": "confident.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling confident means you believe in yourself and your abilities to do something well and feeling like you know you can do something well..",
+                "symptoms": [
+                    "You feel like you can achieve your goals and do things without being too nervous.",
+                    "You might stand tall and speak with a strong voice.",
+                    "When you're confident, you feel positive about yourself."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Confident",
                 "src": "confident.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling confident is having a belief in yourself and your capabilities(ability or what you can do) to succeed at the different things that you try to do.",
+                "symptoms": [
+                    "You have a strong sense of self-assurance (feeling powerful and in control) and belief in your abilities.",
+                    "Confidence helps you to face challenges and take risks with a positive mindset.",
+                    "You feel empowered(powerful) and capable of achieving your goals."
+                ]
             }
         },
         {
@@ -214,16 +202,24 @@
             "name": "confused",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Confused",
                 "src": "confused.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling confused means you don't understand something.This can make you feel unsure or puzzled.",
+                "symptoms": [
+                    "You might feel like your thoughts are jumbled, and you can't make sense of things.",
+                    "It might be hard to decide what to do when you're confused.",
+                    "You might ask lots of questions to try and understand better."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Confused",
                 "src": "confused.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "When you feel confused you might feel uncertain about something. It might be tricky to think clearly about it. It might feel like it's a problem or a challenge.",
+                "symptoms": [
+                    "You may feel like your thinking is are muddled and difficult to organise.",
+                    "Decision-making and problem solving becomes more challenging when you're confused.",
+                    "You might feel like you need to understand things more clearly. You might want someone to help you with doing this."
+                ]
             }
         },
         {
@@ -231,16 +227,26 @@
             "name": "depressed",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Depressed",
                 "src": "depressed.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling depressed can mean that you feel very sad and like you don't have any interest in the activities or things you used to enjoy.",
+                "symptoms": [
+                    "You might feel like crying or being alone most of the time.",
+                    "Not wanting to do, or not enjoying the things you used to like doing.",
+                    "Feeling hopeless and negative about the future.",
+                    "It's really important to speak with someone you trust if you've had this feeling regularly. This might be a close friend, your family or your doctor. ",
+                    "Regularly means that you feel like this for more than 3 days in a row without any change in how you feel.",
+                    "If your mood changes, but you still have the same low feeling often you should also let someone know if this happens. ",
+                    "Often means when it happens for more than 3 times in 3 weeks."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Depressed",
                 "src": "depressed.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "When you feel depressed you'll have a low mood that doesn't feel like it changes or feels happier or 'better'. You'll feel like you don't have any interest in things. You might also feel hopeless and like there's not any point in doing anything. Sometimes it doesn't feel like there's any reason why your mood feels low. This can feel confusing. It's really important to speak with someone you trust if you've had this feeling regularly. This might be a close friend, your family or your doctor. Regularly means that you feel like this for more than 3 days in a row without any change in this feeling. If your mood changes, but you still have the same low feeling often you should also let someone know if this happens. Often means when it happens for more than 3 times in 3 weeks.",
+                "symptoms": ["Persistent sadness and feeling emotionally drained.","Lack of interest in activities that were once enjoyable.",
+                    "Changes in sleep and appetite, and difficulty concentrating."
+                ]
             }
         },
         {
@@ -248,16 +254,23 @@
             "name": "disgusted",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Disgusted",
                 "src": "disgusted.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling disgusted means having a strong feeling of dislike or repulsion towards something.",
+                "symptoms": [
+                    "You might feel like you want to avoid or stay away from the thing that disgusts you.",
+                    "Your body might react with a 'yucky' feeling, like wrinkling your nose or feeling sick."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Disgusted",
                 "src": "disgusted.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling disgusted involves experiencing a strong feeling repulsion towards something.",
+                "symptoms": [
+                    "You might experience a sense of repulsion or nausea towards the object of disgust.",
+                    "Avoidance or the desire to stay away from the source of the feeling.",
+                    "Disgust might be accompanied by physical reactions like grimacing or feeling queasy."
+                ]
             }
         },
         {
@@ -265,16 +278,24 @@
             "name": "down",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Down",
                 "src": "down.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling down means you are sad or feeling low in spirits.",
+                "symptoms": [
+                    "You might feel like staying alone and not talking to anyone.",
+                    "Loss of interest in things you usually enjoy.",
+                    "Feeling like everything is going wrong and nothing can make you feel better."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Down",
                 "src": "down.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling down refers to a state of sadness or low mood that affects your overall well-being.",
+                "symptoms": [
+                    "Feeling emotionally low and uninterested in activities you used to enjoy.",
+                    "A sense of isolation and a preference for solitude.",
+                    "A pessimistic outlook, where everything may seem gloomy and unfulfilling."
+                ]
             }
         },
         {
@@ -282,16 +303,24 @@
             "name": "embarrassed",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Embarrassed",
                 "src": "embarrassed.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling embarrassed means you feel self-conscious or uncomfortable about something you did or experienced.",
+                "symptoms": [
+                    "Your face might turn red or feel warm due to the embarrassment.",
+                    "You might want to hide or avoid being in the spotlight.",
+                    "Feeling like others are judging you, even if they might not be."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Embarrassed",
                 "src": "embarrassed.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling embarrassed involves a sense of self-consciousness and discomfort due to a real or perceived social mishap.",
+                "symptoms": [
+                    "Blushing or feeling warm in the face due to the embarrassment.",
+                    "Desire to avoid attention or situations that might trigger embarrassment.",
+                    "Concern about others' opinions and fear of judgment."
+                ]
             }
         },
         {
@@ -299,16 +328,24 @@
             "name": "excited",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Excited",
                 "src": "excited.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling excited means you are full of enthusiasm and eagerness for something enjoyable or special.",
+                "symptoms": [
+                    "You might have a big smile on your face and feel butterflies in your stomach.",
+                    "Feeling like you can't wait for the fun to begin.",
+                    "Your energy levels might be higher than usual."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Excited",
                 "src": "excited.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling excited involves a high level of enthusiasm and anticipation for a positive or thrilling event.",
+                "symptoms": [
+                    "Experiencing a surge of positive emotions, such as happiness and eagerness.",
+                    "Increased energy and anticipation for the upcoming event or activity.",
+                    "A sense of joy and thrill that can manifest physically as well."
+                ]
             }
         },
         {
@@ -316,16 +353,24 @@
             "name": "fed up",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Fed Up",
                 "src": "fedup.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling fed up means you are tired or annoyed with a situation that keeps happening again and again.",
+                "symptoms": [
+                    "You might feel like you've had enough and want things to change.",
+                    "Feeling a bit grumpy or irritated because of the situation.",
+                    "A desire for a break or to escape from what's bothering you."
+                ]
             },
             "over13": {
-                "title": "fed up",
+                "title": "Fed Up",
                 "src": "fedup.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling fed up is being frustrated and annoyed with a repetitive or undesirable situation.",
+                "symptoms": [
+                    "Feeling mentally and emotionally exhausted due to the recurring situation.",
+                    "A sense of irritability and frustration with the ongoing circumstances.",
+                    "Longing for a change or relief from the source of frustration."
+                ]
             }
         },
         {
@@ -333,16 +378,24 @@
             "name": "friendly",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Friendly",
                 "src": "friendly.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling friendly means you want to be kind and helpful to others.",
+                "symptoms": [
+                    "You might smile and feel happy when talking or playing with friends.",
+                    "Willingness to share and cooperate with others.",
+                    "Feeling good when you make new friends or connect with others."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Friendly",
                 "src": "friendly.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling friendly involves a positive and approachable attitude towards others.",
+                "symptoms": [
+                    "Feeling a sense of warmth and openness when interacting with friends and strangers alike.",
+                    "Readiness to cooperate and assist others in their needs.",
+                    "Finding joy and fulfillment in making new connections and friendships."
+                ]
             }
         },
         {
@@ -350,16 +403,24 @@
             "name": "frustrated",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Frustrated",
                 "src": "frustrated.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling frustrated means you are upset or annoyed when things don't go as you hoped or planned.",
+                "symptoms": [
+                    "You might feel like you want to give up or that it's unfair.",
+                    "Feeling a bit restless or wanting to yell because of the frustration.",
+                    "A strong desire to solve the problem causing frustration."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Frustrated",
                 "src": "frustrated.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling frustrated involves a sense of irritation and disappointment when faced with obstacles or unmet expectations.",
+                "symptoms": [
+                    "Feeling agitated or restless due to the unresolvable situation.",
+                    "A sense of wanting to vent or express the frustration verbally or physically.",
+                    "A strong desire to find a resolution and overcome the frustrating challenge."
+                ]
             }
         },
         {
@@ -367,16 +428,24 @@
             "name": "guilty",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Guilty",
                 "src": "guilty.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling guilty means you regret something you did or didn't do and wish you could change it.",
+                "symptoms": [
+                    "You might feel sad and wish you hadn't done the thing that makes you feel guilty.",
+                    "Feeling like you want to apologize and make things right.",
+                    "You might worry that others will be mad at you because of what happened."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Guilty",
                 "src": "guilty.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling guilty is experiencing remorse and regret over one's actions or inactions.",
+                "symptoms": [
+                    "Feeling a heavy emotional burden and sadness due to the regretted behavior.",
+                    "A desire to take responsibility and make amends for the action that caused guilt.",
+                    "Worrying about potential consequences and other people's opinions of you."
+                ]
             }
         },
         {
@@ -384,16 +453,24 @@
             "name": "happy",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Happy",
                 "src": "happy.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling happy means you are joyful and content with what is happening in your life.",
+                "symptoms": [
+                    "You might have a big smile and feel like laughing or dancing.",
+                    "Feeling a sense of lightness and excitement.",
+                    "Wishing this feeling of happiness could last forever."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Happy",
                 "src": "happy.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling happy is experiencing a state of joy and contentment with life's positive aspects.",
+                "symptoms": [
+                    "A feeling of joy and elation, often accompanied by smiling and laughter.",
+                    "Feeling a sense of gratitude and satisfaction with life.",
+                    "Wishing for this happiness to be a lasting and cherished feeling."
+                ]
             }
         },
         {
@@ -401,34 +478,49 @@
             "name": "hopeless",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Hopeless",
                 "src": "hopeless.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling hopeless means you feel like there is no solution or improvement in a difficult situation.",
+                "symptoms": [
+                    "You might feel like giving up because nothing seems to work.",
+                    "Feeling like the problem is too big to handle.",
+                    "A sense of heaviness and sadness about the situation."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Hopeless",
                 "src": "hopeless.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling hopeless involves a deep sense of despair and belief that a difficult situation cannot be changed or improved.",
+                "symptoms": [
+                    "A feeling of powerlessness and resignation about the situation.",
+                    "Difficulty in finding possible solutions or positive outcomes.",
+                    "A sense of emotional heaviness and sadness due to the perceived lack of hope."
+                ]
             }
         },
-      
         {
             "id": 21,
             "name": "quiet",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Quiet",
                 "src": "quiet.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling quiet means you prefer to stay calm and not talk much.",
+                "symptoms": [
+                    "You might feel peaceful and content in your own thoughts.",
+                    "A preference for spending time alone or in a quiet environment.",
+                    "Feeling okay with not being the center of attention."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Quiet",
                 "src": "quiet.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling quiet involves a preference for solitude and a state of calmness and reflection.",
+                "symptoms": [
+                    "Feeling comfortable and at peace with yourself and your thoughts.",
+                    "A desire to spend time alone or in a serene environment.",
+                    "Embracing a more reserved and introverted nature."
+                ]
             }
         },
         {
@@ -436,16 +528,24 @@
             "name": "relieved",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Relieved",
                 "src": "relieved.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling relieved means experiencing a sense of comfort and release from a previous worry or burden.",
+                "symptoms": [
+                    "A feeling of lightness and ease after a stressful event or situation.",
+                    "A sense of comfort and security with the resolution of a problem.",
+                    "Feeling grateful and happy that things turned out well."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Relieved",
                 "src": "relieved.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling relieved involves experiencing a state of comfort and satisfaction after a period of anxiety or stress.",
+                "symptoms": [
+                    "Feeling a sense of relaxation and emotional release.",
+                    "A sense of gratitude and contentment with the resolution of a challenging situation.",
+                    "Experiencing a renewed sense of hope and positivity."
+                ]
             }
         },
         {
@@ -453,16 +553,24 @@
             "name": "sad",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Sad",
                 "src": "sad.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling sad means you are unhappy and may want to cry.",
+                "symptoms": [
+                    "You might feel like you want to be alone and not talk to anyone.",
+                    "Loss of interest in activities you usually enjoy.",
+                    "Feeling like things won't get better and that it's okay to cry."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Sad",
                 "src": "sad.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling sad involves experiencing unhappiness and a low mood.",
+                "symptoms": [
+                    "Feeling emotionally down and disinterested in previously enjoyable activities.",
+                    "A desire for solitude and reflection to process the sadness.",
+                    "Acceptance of the need to express emotions, including crying."
+                ]
             }
         },
         {
@@ -470,16 +578,24 @@
             "name": "satisfied",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Satisfied",
                 "src": "satisfied.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling satisfied means you are content and pleased with an outcome or accomplishment.",
+                "symptoms": [
+                    "A sense of fulfillment and happiness with what you achieved.",
+                    "Feeling proud of your efforts and hard work.",
+                    "A desire to share your success and joy with others."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Satisfied",
                 "src": "satisfied.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling satisfied involves experiencing contentment and gratification with the results of your endeavors.",
+                "symptoms": [
+                    "A feeling of accomplishment and pride in your achievements.",
+                    "A sense of joy and fulfillment in your work or accomplishments.",
+                    "A desire to share your satisfaction and happiness with others."
+                ]
             }
         },
         {
@@ -487,16 +603,24 @@
             "name": "scared",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Scared",
                 "src": "scared.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling scared means you are afraid or anxious about something that might happen.",
+                "symptoms": [
+                    "Feeling your heart race and your palms getting sweaty.",
+                    "Wanting to avoid the thing that scares you.",
+                    "A feeling of fear and vulnerability."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Scared",
                 "src": "scared.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling scared involves experiencing fear and apprehension about potential dangers or uncertainties.",
+                "symptoms": [
+                    "Feeling your heart rate increase and experiencing physical signs of anxiety.",
+                    "A desire to avoid or escape from the source of fear.",
+                    "A sense of vulnerability and a need for safety and reassurance."
+                ]
             }
         },
         {
@@ -504,16 +628,24 @@
             "name": "surprised",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Surprised",
                 "src": "surprised.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling surprised means you are amazed or taken aback by something unexpected.",
+                "symptoms": [
+                    "Your eyes might widen, and your jaw may drop due to the surprise.",
+                    "Feeling a rush of emotions like fear, excitement, or disbelief.",
+                    "The need to take a moment to process what just happened."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Surprised",
                 "src": "surprised.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling surprised involves a sudden and intense emotional response to an unexpected event.",
+                "symptoms": [
+                    "An immediate and intense reaction, often including widened eyes and open mouth.",
+                    "A rush of various emotions, such as fear, excitement, or disbelief.",
+                    "Requiring time to process and make sense of the surprising event."
+                ]
             }
         },
         {
@@ -521,16 +653,24 @@
             "name": "upset",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Upset",
                 "src": "upset.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling upset means you are disturbed or distressed by something upsetting.",
+                "symptoms": [
+                    "You might feel like crying or yelling because you're upset.",
+                    "Feeling like you need a hug or some comfort.",
+                    "Wanting the upsetting situation to go away."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Upset",
                 "src": "upset.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling upset involves being emotionally disturbed and distressed by an unsettling event or situation.",
+                "symptoms": [
+                    "Feeling emotionally overwhelmed and struggling to cope.",
+                    "A desire for comfort and support from others.",
+                    "Wishing for resolution and relief from the upsetting experience."
+                ]
             }
         },
         {
@@ -538,16 +678,24 @@
             "name": "worried",
             "restricted": false,
             "under13": {
-                "title": "",
+                "title": "Worried",
                 "src": "worried.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling worried means you are anxious and concerned about something that might happen in the future.",
+                "symptoms": [
+                    "Feeling restless and unable to relax due to the worry.",
+                    "Thoughts about the potential negative outcomes of a situation.",
+                    "A desire to find solutions to the sources of worry."
+                ]
             },
             "over13": {
-                "title": "",
+                "title": "Worried",
                 "src": "worried.jpg",
-                "description": "Lorem ipsum",
-                "symptoms": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                "description": "Feeling worried involves experiencing anxiety and concern about uncertain future events.",
+                "symptoms": [
+                    "Feeling mentally preoccupied and restless due to worry.",
+                    "Experiencing negative thoughts and potential worst-case scenarios.",
+                    "A need to actively address and manage sources of worry."
+                ]
             }
         },
         {
@@ -557,29 +705,30 @@
             "under13": {
                 "title": "Self harm and self-injury",
                 "src": "alone.jpg",
-                "description": "Self-harm and self-injury are when someone hurts or harms themself or puts themself in danger or does dangerous things on purpose. \n ###  What do people say that they self harm or self-injure? ### \n There are many different reasons that people say they self-harm or self-injure. Sometimes they do it because of something difficult that is happening or has happened to them in the past. But sometimes they might not know why they’re doing it. Even if you or someone that you know doesn't understand why it's still really important to get help.",
+                "description": "Self-harm and self-injury are when someone hurts or harms themself or puts themself in danger or does dangerous things on purpose. \n ### What do people say that they self harm or self-injure? ### \n There are many different reasons that people say they self-harm or self-injure. Sometimes they do it because of something difficult that is happening or has happened to them in the past. But sometimes they might not know why they’re doing it. Even if you or someone that you know doesn't understand why it's still really important to get help.",
                 "caution": "Sometimes people say things like it’s ‘attention seeking’. But it’s important that anyone who self-harms or self-injures gets the right support, help and advice as soon as possible. \n If you're worried that you or someone else is self-harming or self-injuring themselves, it's really important that you let a trusted adult know. This might be a parent or carer, or a friend's parent or carer, a teacher or your tutor, your doctor, a counsellor or therapist. \n You can also let a counsellor know without saying your name on ChildLine. Call 0800 1111, up to age 19 - they will be able to help you to get the right help.",
                 "symptoms": [
-                    "Self-harm includes cutting, pinching, pulling, tearing, scratching or burning skin, or stopping wounds from healing. -  It's pulling out hair, or punching or banging things until a person starts to bleed. It's deliberately taking medicines without deliberately trying to die (suicidal intention).  Not looking after yourself properly, taking drugs or using alcohol can all be self-harm, too. ",
+                    "Self-harm includes cutting, pinching, pulling, tearing, scratching or burning skin, or stopping wounds from healing. - It's pulling out hair, or punching or banging things until a person starts to bleed. It's deliberately taking medicines without deliberately trying to die (suicidal intention). Not looking after yourself properly, taking drugs or using alcohol can all be self-harm, too. ",
                     "There are many different reasons that people say they self-harm or self-injure. Sometimes they do it because of something difficult that is happening or has happened to them in the past. But sometimes they might not know why they’re doing it. Even if you or someone that you know doesn't understand why it's still really important to get help."
                 ]
             },
             "over13": {
                 "title": "What is self harm? ",
                 "src": "alone.jpg",
-                "description": "Self-harm and self-injury are when someone deliberately hurts or harms themself or puts themself in danger or does dangerous things. \n ###  What do people say that they self harm or self-injure? ### \n * it shows how they feel without speaking \n * they experience strong emotions such as anger \n * it helps them to cope with negative experiences \n * it distracts from how they’re feeling \n * it punishes them for something, or feel they deserve it \n * it stops them feeling disconnected from themselves or the world \n * it means they have to look after themselves",
+                "description": "Self-harm and self-injury are when someone deliberately hurts or harms themself or puts themself in danger or does dangerous things. \n ### What do people say that they self harm or self-injure? ### \n * it shows how they feel without speaking \n * they experience strong emotions such as anger \n * it helps them to cope with negative experiences \n * it distracts from how they’re feeling \n * it punishes them for something, or feel they deserve it \n * it stops them feeling disconnected from themselves or the world \n * it means they have to look after themselves",
                 "caution": "Sometimes people say things like it’s ‘attention seeking’. But it’s important that anyone who self-harms or self-injures gets the right support, help and advice as soon as possible. \n If you're worried that you or someone else is self-harming or self-injuring themselves, it's really important that you let a trusted adult know. This might be a parent or carer, or a friend's parent or carer, a teacher or your tutor, your doctor, a counsellor or therapist. \n You can also let a counsellor know without saying your name on ChildLine. Call 0800 1111, up to age 19 - they will be able to help you to get the right help.",
                 "symptoms": [
-                    "Self-harm includes cutting, pinching, pulling, tearing, scratching or burning skin, or stopping wounds from healing. It's pulling out hair, or punching or banging things until a person starts to bleed. It's deliberately taking medicines without deliberately trying to die (suicidal intention).  Not looking after yourself properly, taking drugs or using alcohol can all be self-harm, too."
+                    "Self-harm includes cutting, pinching, pulling, tearing, scratching or burning skin, or stopping wounds from healing. It's pulling out hair, or punching or banging things until a person starts to bleed. It's deliberately taking medicines without deliberately trying to die (suicidal intention). Not looking after yourself properly, taking drugs or using alcohol can all be self-harm, too."
                 ]
             }
         }
     ],
-
     "do-make": [
         {
             "id": 1,
-            "emotions": ["worried, anxious"],
+            "emotions": [
+                "worried, anxious"
+            ],
             "under13": true,
             "over13": true,
             "title": "Make your own calming, regulating sensory bottle",
@@ -637,7 +786,9 @@
         },
         {
             "id": 2,
-            "emotions": ["upset"],
+            "emotions": [
+                "upset"
+            ],
             "under13": true,
             "over13": true,
             "title": "Make a rain stick sensory bottle",
@@ -670,7 +821,9 @@
         },
         {
             "id": 3,
-            "emotions": ["anxious, worried"],
+            "emotions": [
+                "anxious, worried"
+            ],
             "under13": true,
             "over13": true,
             "title": "Bubblewrap anxiety helper",
@@ -686,7 +839,6 @@
                 "Moving your hands back and forward helps your heart, mind and body to feel more relaxed. ",
                 "It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
             ],
-
             "materials": [
                 "Plastic bottle ",
                 "Bottle lid ",
@@ -704,13 +856,19 @@
             "instructions": [
                 {
                     "src": null,
-                    "step": ["lorem ipsum", "lorem ipsum", "lorem ipsum"]
+                    "step": [
+                        "lorem ipsum",
+                        "lorem ipsum",
+                        "lorem ipsum"
+                    ]
                 }
             ]
         },
         {
             "id": 4,
-            "emotions": ["anxious"],
+            "emotions": [
+                "anxious"
+            ],
             "under13": true,
             "over13": true,
             "title": "Make a moving lava lamp bottle",
@@ -770,7 +928,9 @@
         },
         {
             "id": 5,
-            "emotions": ["worried, upset"],
+            "emotions": [
+                "worried, upset"
+            ],
             "under13": true,
             "over13": true,
             "title": "Giant bubbles",
@@ -815,7 +975,9 @@
         },
         {
             "id": 7,
-            "emotions": ["angry"],
+            "emotions": [
+                "angry"
+            ],
             "under13": true,
             "over13": true,
             "title": "Tearing paper",
@@ -840,7 +1002,9 @@
         },
         {
             "id": 8,
-            "emotions": ["angry"],
+            "emotions": [
+                "angry"
+            ],
             "under13": true,
             "over13": false,
             "title": "Draw and write about your anger monster",
@@ -850,7 +1014,10 @@
             "how-it-helps": [
                 "People are not an emotion. Talking about your anger monster helps you to see and know that your emotions are feelings that people have. It helps you to see how that feeling shows itself in you. This helps you to notice and see it when it happens."
             ],
-            "materials": ["Coloured pens, pencils or crayons", "A mirror"],
+            "materials": [
+                "Coloured pens, pencils or crayons",
+                "A mirror"
+            ],
             "instructions": [
                 {
                     "src": "anger-monster.jpg",
@@ -865,7 +1032,9 @@
         },
         {
             "id": 9,
-            "emotions": ["angry"],
+            "emotions": [
+                "angry"
+            ],
             "under13": false,
             "over13": true,
             "title": "Punching paper, pillow, punch bags and more",
@@ -883,7 +1052,6 @@
                 "skipping rope",
                 "stress ball"
             ],
-
             "instructions": [
                 {
                     "src": null,
@@ -901,11 +1069,13 @@
             ]
         }
     ],
-
     "play-game": [
         {
             "id": 1,
-            "emotions": ["alone", "anxious"],
+            "emotions": [
+                "alone",
+                "anxious"
+            ],
             "name": "JustTouchToo",
             "description": "Just touch too from Sensory is an engaging and relaxing touch effects app",
             "src": "IMG_0582-min.jpg",
@@ -919,7 +1089,12 @@
         },
         {
             "id": 2,
-            "emotions": ["alone", "lonely", "anxious", "quiet"],
+            "emotions": [
+                "alone",
+                "lonely",
+                "anxious",
+                "quiet"
+            ],
             "name": "Chrysaora",
             "description": "Chrysaora is a special kind of graceful jellyfish, with stunning colors.",
             "src": "IMG_0934.jpg",
@@ -933,7 +1108,11 @@
         },
         {
             "id": 3,
-            "emotions": ["alone", "excited", "down"],
+            "emotions": [
+                "alone",
+                "excited",
+                "down"
+            ],
             "name": "Sandbox",
             "description": "Sensory SandBox. A box of sand to explore writing letters, words, numbers, symbols and creating unusual sandy drawings.",
             "src": "IMG_0705-min.jpg",
@@ -944,21 +1123,236 @@
                 " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
             ],
             "game": "https://www.sensoryapphouse.com/sandbox-pwa/index.html"
+        },
+        {
+            "id": 4,
+            "emotions": [
+                "angry"
+            ],
+            "name": "Flames Live!",
+            "description": "Sensory Flames Has A Range Of Different Flame And Sun Effects. Click Or Tap The Button And The App Will Launch Filling The Screen Or Window.",
+            "src": "flames.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/flames-pwa-xbox/index.html"
+        },
+        {
+            "id": 5,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Abstract Live!",
+            "description": "Sensory Abstract#6 App Is Another Digital Art Creation With Unusual Sensory Visual Effects. Click Or Tap The Button And The App Will Launch",
+            "src": "abstract.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/abstract6-pwa-xbox/index.html"
+        },
+        {
+            "id": 6,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "SpeakUp Live!",
+            "description": "Lorem Ipsum",
+            "src": "speakup.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/speakup-pwa/index.html"
+        },
+        {
+            "id": 7,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Electrique Live!",
+            "description": "Click or tap the button and the app will launch filling the screen or window,If the app fills the window, maximise the window to full screen and the app will run as full screen. Press ESC key or click/tap the X button to close the app.",
+            "src": "electrique.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/electrique-pwa/index.html"
+        },
+        {
+            "id": 8,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Flocking Live!",
+            "description": "Choose from the 8 Flocking scenes, and the background will load. Touch and move around, and the fish or other digital characters or objects will slowly flock together and follow. Touch the silver buttons to change the style of the character or object and add a trail, or change the background. If using on a tablet or phone, we suggest using the landscape orientation.",
+            "src":"flocking.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/flocking-pwa/index.html"
+        },
+        {
+            "id": 9,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Just Touch Live!",
+            "description": "After app launch by tapping the above button/icon, click the splash screen to start the app. JustTouch will then show the camera view, with some hall of mirrors type live images. Move the mouse or finger and you will see the images move. The single arrows will change the style of effect, and the double arrows will move to the next mode. The 4 modes are hall of mirrors, swirls, inversions and tunnels. Tapping or clicking changes the color, effect and direction of swirl.        ",
+            "src":"justTouch.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/justtouch-pwa/index.html"
+        },
+        {
+            "id": 10,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Lava Live!",
+            "description": "By pressing the silver buttons it is possible to change colors, change the number of bubble groups, change the general speed of movement and change the “diffusion”. The bubble edges of Lava are fully touch reactive, responding according to how close a bubble it to the touch.",
+            "src":"lavaLive.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/lava-pwa/index.html"
+        },
+        {
+            "id": 11,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Magma Live!",
+            "description":"The Sensory styles, sizes and colours can be chosen using touch/mouse and the silver buttons. The app can also be controlled by using a keyboard, switches or an XBox controller, or the Microsoft Adaptive Controller with any suitable switch inputs.",
+            "src":"magma.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/magma-pwa/"
+        },
+        {
+            "id": 12,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Mandala patterns!",
+            "description":"Run Mandala Patterns and touch of click and move on the screen and start creating symmetrical patterns. The right hand toolbar contains settings for Line Width, Symmetry type, Line Colour controls, Line Style, and a range of subtle pattern Effects. There is also a wobble animation button, just below the download artwork button.",
+            "src":"mandala.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/mandala-pwa/mandala-pwa/index.html"
+        },
+        {
+            "id": 13,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Mesmo Live!",
+            "description":"By pressing the silver buttons it is possible to change colours, change the number of bubble and effects groups, change the general speed of movement and change the “diffusion”. Mesmo is fully touch or pointer reactive.",
+            "src":"mesmo.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/mesmo-pwa/index.html"
+        },
+        {
+            "id": 14,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Simply Touch Live!",
+            "description":"Choose one of the top row of effect groups, then choose the effect you would like to use from the 4 in the second row. One the shape or effect has open, move around the mouse or tap and drag on the screen, and the shapes will move and transform and some will even follow you around.",
+            "src":"simplyTouch.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/SimplyTouch-pwa/index.html"
+        },
+        {
+            "id": 15,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Plazma Live!",
+            "description":"Plazma bubble effects can be influenced by touching or clicking on the screen. Plazma can be controlled by assistive technology switches that interface with your device (probably bluetooth) that produce character codes (1, 2, 3, 4 , Space , Enter) – all produce different changes in effects of the app and control the 4 effects buttons. Plazma also supports the XBox controller or Microsoft Adaptive Controller on many devices. Tapping A. B, X and Y control the app effects.",
+            "src":"plazma.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/plazma-pwa-xbox/index.html"
+        },
+        {
+            "id": 16,
+            "emotions": [
+                "Lorem Ipsum"
+            ],
+            "name": "Sensory Goo Live!",
+            "description":"Tap to make goo change",
+            "src":"sensoryGoo.jpg",
+            "how-it-helps": [
+                "These games are called Sensory Regulatory games.",
+                " These games are tested by Scientists. They saw that they make people feel calmer, less anxious and less worried about things. This is because you concentrate as you are doing them.",
+                " Moving your hands back and forward helps your heart, mind and body to feel more relaxed too. ",
+                " It helps you to breathe in and out more slowly and at the same rhythm and beat (regulate your breathing)."
+            ],
+            "game": "https://www.sensoryapphouse.com/goo-pwa/"
         }
     ],
+
     "join-go": [
         {
             "under13": [
                 {
                     "id": 1,
-                    "emotions": ["alone", "angry"],
+                    "emotions": [
+                        "alone",
+                        "angry"
+                    ],
                     "how-it-helps": "Lorem ipsum",
                     "title": "Lorem ipsum",
                     "location": "Lorem ipsum"
                 },
                 {
                     "id": 2,
-                    "emotions": ["alone", "ashamed"],
+                    "emotions": [
+                        "alone",
+                        "ashamed"
+                    ],
                     "how-it-helps": "Lorem ipsum",
                     "title": "Lorem ipsum",
                     "location": "Lorem ipsum"
@@ -967,14 +1361,20 @@
             "over13": [
                 {
                     "id": 1,
-                    "emotions": ["alone", "ashamed"],
+                    "emotions": [
+                        "alone",
+                        "ashamed"
+                    ],
                     "how-it-helps": "Lorem ipsum",
                     "title": "Lorem ipsum",
                     "location": "Lorem ipsum"
                 },
                 {
                     "id": 2,
-                    "emotions": ["alone", "ashamed"],
+                    "emotions": [
+                        "alone",
+                        "ashamed"
+                    ],
                     "how-it-helps": "Lorem ipsum",
                     "title": "Lorem ipsum",
                     "location": "Lorem ipsum"
@@ -982,7 +1382,6 @@
             ]
         }
     ],
-
     "chat-speak": [
         {
             "under13": {
@@ -995,6 +1394,129 @@
                 "chat": "https://www.themix.org.uk/get-support/speak-to-our-team",
                 "phone": "08088084994"
             }
+        }
+    ],
+
+    "video": [
+        {
+            "id":1,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "angry"
+            ],
+            "title":"Meddidation video",
+            "link":"https://www.youtube.com/watch?v=wkse4PPxkk4",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "id":2,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "lonely", "angry","down"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=iiADhChRriM&t=42s",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "id":3,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "Lorem ipsum",
+                "angry"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=O-6f5wQXSu8",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique."
+        },{
+            "id":4,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "Lorem ipsum",
+                "Lorem Ipsum"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=itZMM5gCboo",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },{
+            "id":5,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "Lorem ipsum"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=duUfdGPUtFs",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas volutpat blandit aliquam etiam erat. Elementum facilisis leo vel fringilla."
+        },{
+            "id":6,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "Lorem ipsum",
+                "Lorem Ipsum"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=BM2CNYvI45Y",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },{
+            "id":7,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "Lorem ipsum",
+                "Lorem Ipsum",
+                "Lorem Ipsum"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=xNN7iTA57jM",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },{
+            "id":8,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "Lorem ipsum",
+                "Lorem Ipsum"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=SVrCG11zSPw",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique."
+        },{
+            "id":9,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "Lorem ipsum"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=tMkvDp-jaes",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },{
+            "id":10,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "Lorem ipsum",
+                "Lorem Ipsum"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=vPhg6sc1Mk4",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Commodo odio aenean sed adipiscing diam donec adipiscing tristique."
+        },{
+            "id":11,
+            "under13": true,
+            "over13": true,
+            "emotions": [
+                "Lorem ipsum"
+            ],
+            "title":"Lorem ipsum",
+            "link":"https://www.youtube.com/watch?v=jh4C7w-dvho",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
     ]
 }

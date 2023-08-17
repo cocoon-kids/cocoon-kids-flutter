@@ -21,7 +21,29 @@ class AppScaffold extends StatefulWidget {
   }
 }
 
+class _TextAndIcon {
+  final String text;
+  final IconData icon;
+
+  _TextAndIcon(this.text, this.icon);
+}
+
 class _AppScaffoldState extends State<AppScaffold> {
+  final navBarOptions = [
+    _TextAndIcon("Home", Icons.home),
+    _TextAndIcon("Contact", Icons.contact_page_outlined,),
+    _TextAndIcon("Videos", Icons.video_library,),
+    _TextAndIcon("Games", Icons.games,),
+    _TextAndIcon("About", Icons.info ,),
+  ];
+
+  BottomNavigationBarItem _createBottomNavItem(String label, IconData iconData) {
+    return BottomNavigationBarItem(
+      icon: Icon(iconData),
+      label: label,
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final location = GoRouterState.of(context).uri.toString();
@@ -33,6 +55,8 @@ class _AppScaffoldState extends State<AppScaffold> {
       selectedIndex = 1;
     } else if (location == "/about") {
       selectedIndex = 2;
+    } else if (location == "/games") {
+      selectedIndex = 3;
     } else {
       selectedIndex = -1;
     }
@@ -57,34 +81,29 @@ class _AppScaffoldState extends State<AppScaffold> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         onTap: (i) {
-          switch(i) {
-            case 0:
+          switch(navBarOptions[i].text) {
+            case "Home":
               router.go("/");
               break;
-            case 1:
+            case "Contact":
               router.go("/contact");
               break;
-            case 2:
+            case "Videos":
+              router.go("/videos");
+              break;
+            case "Games":
+              router.go("/games");
+              break;
+            case "About":
               router.go("/about");
+              break;
           }
         },
         selectedItemColor: selectedIndex < 0 ? Colors.grey : Theme.of(context).colorScheme.primary,
         currentIndex: selectedIndex < 0 ? 0 : selectedIndex,
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: "Home",
-
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.contact_page_outlined),
-            label: "Contact",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.info),
-            label: "About",
-          )
-        ],
+        type: BottomNavigationBarType.fixed,
+        items: navBarOptions.map((e) => _createBottomNavItem(e.text, e.icon))
+            .toList()
       ),
     );
   }

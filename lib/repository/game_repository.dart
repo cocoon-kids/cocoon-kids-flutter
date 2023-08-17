@@ -6,9 +6,10 @@ import 'database.dart';
 abstract class GameRepository {
   Stream<Game> getGame(String emotion);
 
-  const GameRepository();
-
   Stream<Game> getGameById(int id);
+  Stream<List<Game>> getGames();
+
+  const GameRepository();
 }
 
 class GameRepositoryImpl extends GameRepository {
@@ -23,6 +24,7 @@ class GameRepositoryImpl extends GameRepository {
     );
   }
 
+  @override
   Stream<List<Game>> getGames() async* {
     final db = await loadDatabase(fileLoader);
 
