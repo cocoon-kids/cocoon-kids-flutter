@@ -1,0 +1,30 @@
+{
+  "welcomeMessage": "Cocoon Kids Big Hug is a therapeutic service for children and young people",
+  "@welcomeMessage": {
+    "description": "The message shown to users when app first opened"
+  },
+  "buttonForUnder13": "I'm a child under 13",
+  "@buttonForUnder13": {
+    "description": "Button text for under 13s"
+  },
+  "buttonForOver13": "I'm a child over 13",
+  "@buttonForOver13": {
+    "description": "Button text for over 13s"
+  },
+  "buttonForTeachersAndProfessionals": "I'm a teacher or professional",
+  "@buttonForTeachersAndProfessionals": {
+    "description": "Button text for teachers and professionals"
+  },
+  "buttonForParentOrCarer": "I'm a parent or a carer",
+  "@buttonForParentOrCarer": {
+    "description": "Button text for parents and carers"
+  },
+  "buttonForUrgentHelp": "I need urgent help now!",
+  "@buttonForUrgentHelp": {
+    "description": "Button text for I need urgent help"
+  },
+  "buttonForINeedPrivacy": "I need privacy, exit now!",
+  "@buttonForINeedPrivacy": {
+    "description": "Button text for I need privacy"
+  }
+}
